@@ -8,7 +8,8 @@
 //   否決①  非 Model 3 / Model Y 主題（Model S/X 專屬、Cybercab、機器人、股票、政論…）
 //   否決②  命中任一負面詞
 //   否決③  出現競品品牌，且優勢語意指向競品
-//   要求④  必須命中至少一個「購車優勢角度」，否則不收
+//   分類④  命中角度就標上角度；三道否決都過但沒對到角度 → 歸入「其他」（不丟棄，
+//           這類文章仍可能推動觀望中的客戶下單）
 
 import { writeFile, mkdir } from 'node:fs/promises';
 
@@ -55,6 +56,10 @@ const ANGLES = [
     words: ['五星', 'TNCAP', 'NCAP', '安全評鑑', '碰撞測試', '主動安全', '最安全'],
   },
 ];
+
+// 沒對到上述任何角度、但通過三道否決的文章歸在這一類
+const OTHER_KEY = 'other';
+const OTHER_LABEL = '其他';
 
 // ── 否決①：非 M3/MY 主題 ──────────────────────────────────────────────
 const OFFTOPIC = [
@@ -174,13 +179,12 @@ function evaluate(title) {
     if (edge) return { reject: 'rival', by: `${rival}/${edge}` };
   }
 
-  // 要求④：必須命中至少一個優勢角度
+  // 分類④：對到角度就標角度；沒對到但三道否決都過 → 歸「其他」，保留不丟
   const angles = ANGLES
     .filter((a) => a.words.some((w) => has(title, w)))
     .map((a) => a.key);
-  if (!angles.length) return { reject: 'no-angle', by: '' };
 
-  return { angles };
+  return { angles: angles.length ? angles : [OTHER_KEY] };
 }
 
 function isRelevant(title) {
@@ -254,7 +258,7 @@ async function main() {
   }
 
   const seen = new Set();
-  const rejects = { offtopic: 0, negative: 0, rival: 0, 'no-angle': 0, irrelevant: 0 };
+  const rejects = { offtopic: 0, negative: 0, rival: 0, irrelevant: 0 };
   let items = [];
 
   for (const it of collected) {
@@ -282,12 +286,16 @@ async function main() {
 
   const angleCounts = {};
   for (const a of ANGLES) angleCounts[a.key] = items.filter((i) => i.angles.includes(a.key)).length;
+  angleCounts[OTHER_KEY] = items.filter((i) => i.angles.includes(OTHER_KEY)).length;
 
   const payload = {
     updatedAt: new Date().toISOString(),
     coverageDays: DAYS,
     total: items.length,
-    angleLabels: Object.fromEntries(ANGLES.map((a) => [a.key, a.label])),
+    angleLabels: {
+      ...Object.fromEntries(ANGLES.map((a) => [a.key, a.label])),
+      [OTHER_KEY]: OTHER_LABEL,   // 「其他」固定排最後
+    },
     angleCounts,
     failedSlices: failed,
     items,
@@ -298,8 +306,9 @@ async function main() {
 
   const oldest = items.length ? (items[items.length - 1].date || '').slice(0, 10) : '-';
   console.log(`\n保留 ${items.length} 則（最舊 ${oldest}）｜失敗切片 ${failed.length}/${TOPICS.length * SLICES}`);
-  console.log(`剔除：無關 ${rejects.irrelevant}｜非M3MY主題 ${rejects.offtopic}｜負面 ${rejects.negative}｜競品占優 ${rejects.rival}｜無優勢角度 ${rejects['no-angle']}`);
+  console.log(`剔除：無關 ${rejects.irrelevant}｜非M3MY主題 ${rejects.offtopic}｜負面 ${rejects.negative}｜競品占優 ${rejects.rival}`);
   for (const a of ANGLES) console.log(`  - ${a.label}: ${angleCounts[a.key]} 則`);
+  console.log(`  - ${OTHER_LABEL}: ${angleCounts[OTHER_KEY]} 則`);
 }
 
 main().catch((err) => {

@@ -234,8 +234,10 @@
   function angleTags(item) {
     var out = '';
     for (var i = 0; i < (item.angles || []).length; i++) {
-      var lab = state.labels[item.angles[i]];
-      if (lab) out += '<span class="tag a">' + esc(lab) + '</span>';
+      var key = item.angles[i];
+      var lab = state.labels[key];
+      // 「其他」是未對到角度的落點，用中性灰，不套優勢角度的配色
+      if (lab) out += '<span class="tag' + (key === 'other' ? '' : ' a') + '">' + esc(lab) + '</span>';
     }
     return out;
   }

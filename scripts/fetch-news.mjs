@@ -10,7 +10,10 @@ const DAYS = 180;              // 資料涵蓋天數（前端可在此範圍內�
 const SLICE = 30;              // 每片天數
 const SLICES = Math.ceil(DAYS / SLICE);
 const DELAY_MS = 250;          // 每次請求間隔，避免觸發速率限制
-const MAX_ITEMS = 900;         // 輸出上限，控制 JSON 體積
+// 輸出上限。注意：截斷是砍最舊的，設太低會讓「近半年」實際只涵蓋到一部分。
+// 900 實測只涵蓋到 148 天，故提高到 1600 以確保 180 天完整。
+// GitHub Pages 會 gzip，中文 JSON 壓縮率高，實際傳輸量遠小於原始大小。
+const MAX_ITEMS = 1600;
 
 const TOPICS = [
   { key: 'model3', label: 'Model 3', q: '"Tesla Model 3"' },

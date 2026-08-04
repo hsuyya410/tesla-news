@@ -134,7 +134,7 @@
 
 <header>
   <h1>Tesla 新聞彙整</h1>
-  <p class="tagline">Model 3 ・ Model Y 的用車成本、產品力、市場表現與充電網路報導｜涵蓋近半年</p>
+  <p class="tagline">Model 3 ・ Model Y｜用車成本、產品力、市場表現、充電網路、安全表現｜涵蓋近半年</p>
 </header>
 
 <div class="panel">
@@ -166,7 +166,7 @@
   </div>
 
   <div class="row chips-a" id="angles">
-    <span class="lbl">購車優勢</span>
+    <span class="lbl">分類</span>
     <button class="chip" type="button" data-angle="all" aria-pressed="true">全部</button>
     <!-- 其餘角度按鈕由 JS 依 news.json 產生 -->
   </div>
@@ -271,7 +271,7 @@
     }
 
     var shown = all.slice(0, state.limit);
-    contentEl.innerHTML = renderSection('購車優勢報導', 'adv', '', shown);
+    contentEl.innerHTML = renderSection('新聞列表', 'adv', '', shown);
 
     if (all.length > state.limit) {
       moreEl.hidden = false;

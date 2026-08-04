@@ -134,7 +134,7 @@
 
 <header>
   <h1>Tesla 新聞彙整</h1>
-  <p class="tagline">Model 3 ・ Model Y ・ 台灣市場｜公開中文新聞，涵蓋近半年</p>
+  <p class="tagline">Model 3 ・ Model Y 的用車成本、產品力、市場表現與充電網路報導｜涵蓋近半年</p>
 </header>
 
 <div class="panel">
@@ -177,7 +177,7 @@
 <button id="more" type="button" hidden>載入更多</button>
 
 <footer>
-  <p><strong>關於這個頁面</strong>：新聞由 Google News 公開 RSS 自動彙整，「購車優勢」與角度標籤為程式依關鍵字判斷，僅供快速瀏覽參考。標題與連結均為原媒體內容，著作權屬各原媒體所有。</p>
+  <p><strong>關於這個頁面</strong>：新聞由 Google News 公開 RSS 自動彙整，並以關鍵字規則篩選出與購車考量（成本、產品力、市場表現、充電、安全）相關的報導，<strong>因此僅為 Tesla 相關新聞的一部分，並非完整報導總覽</strong>。分類為程式判斷，僅供快速瀏覽參考；標題與連結均為原媒體內容，著作權屬各原媒體所有。</p>
   <p>本頁為個人整理之新聞聚合頁面，<strong>非 Tesla 官方網站，亦不代表 Tesla 之立場或聲明</strong>。車輛規格、價格與供應狀況請以 tesla.com 官方公告為準。</p>
   <p id="foot-stamp"></p>
 </footer>
@@ -271,14 +271,7 @@
     }
 
     var shown = all.slice(0, state.limit);
-    var adv = shown.filter(function (i) { return i.group === 'advantage'; });
-    var hl = shown.filter(function (i) { return i.group === 'highlight'; });
-    var other = shown.filter(function (i) { return i.group === 'other'; });
-
-    contentEl.innerHTML =
-      renderSection('購車優勢', 'adv', '成本 / 產品力 / 市場肯定 / 充電 / 安全', adv) +
-      renderSection('其他亮點', '', '', hl) +
-      renderSection('其他相關報導', '', '', other);
+    contentEl.innerHTML = renderSection('購車優勢報導', 'adv', '', shown);
 
     if (all.length > state.limit) {
       moreEl.hidden = false;

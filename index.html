@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tesla 新聞彙整｜Model 3 ・ Model Y</title>
+<meta name="description" content="自動彙整近 30 天 Tesla Model 3 與 Model Y 相關中文新聞，資料來源為公開新聞媒體。">
+<style>
+  :root {
+    --bg: #f5f6f8;
+    --card: #ffffff;
+    --ink: #16181d;
+    --muted: #6b7280;
+    --line: #e6e8ec;
+    --accent: #1f6feb;
+    --good: #0f7b52;
+    --good-bg: #e7f5ee;
+    --neutral-bg: #eef0f3;
+    --shadow: 0 1px 2px rgba(16,24,40,.05), 0 4px 12px rgba(16,24,40,.05);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1115; --card: #171a21; --ink: #e8eaed; --muted: #9aa1ad;
+      --line: #262b34; --accent: #5b9bff; --good: #4ecf9a; --good-bg: #14322a;
+      --neutral-bg: #21262f;
+      --shadow: 0 1px 2px rgba(0,0,0,.4), 0 4px 12px rgba(0,0,0,.3);
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font-family: "Noto Sans TC", "Microsoft JhengHei", "PingFang TC", -apple-system,
+                 BlinkMacSystemFont, "Segoe UI", sans-serif;
+    line-height: 1.6; -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 20px 16px 56px; }
+
+  header { margin-bottom: 18px; }
+  h1 { font-size: 21px; margin: 0 0 6px; letter-spacing: -.01em; }
+  .tagline { color: var(--muted); font-size: 13px; margin: 0; }
+
+  .bar {
+    display: flex; flex-wrap: wrap; gap: 10px; align-items: center;
+    background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+    padding: 12px 14px; box-shadow: var(--shadow); margin: 16px 0 18px;
+  }
+  #refresh {
+    appearance: none; border: 0; cursor: pointer; font: inherit; font-weight: 600;
+    font-size: 14px; color: #fff; background: var(--accent);
+    padding: 9px 16px; border-radius: 9px; display: inline-flex; align-items: center; gap: 7px;
+    transition: opacity .15s, transform .05s;
+  }
+  #refresh:hover { opacity: .9; }
+  #refresh:active { transform: translateY(1px); }
+  #refresh[disabled] { opacity: .55; cursor: default; }
+  #refresh .spin { display: none; width: 14px; height: 14px; border: 2px solid rgba(255,255,255,.4);
+    border-top-color: #fff; border-radius: 50%; animation: rot .7s linear infinite; }
+  #refresh.loading .spin { display: inline-block; }
+  #refresh.loading .ico { display: none; }
+  @keyframes rot { to { transform: rotate(360deg); } }
+
+  .stamp { font-size: 12.5px; color: var(--muted); flex: 1 1 190px; }
+  .stamp b { color: var(--ink); font-weight: 600; }
+
+  #q {
+    flex: 1 1 170px; min-width: 130px; font: inherit; font-size: 14px;
+    padding: 8px 12px; border-radius: 9px; border: 1px solid var(--line);
+    background: var(--bg); color: var(--ink);
+  }
+  #q:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
+
+  .chips { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 20px; }
+  .chip {
+    font: inherit; font-size: 13px; cursor: pointer; border: 1px solid var(--line);
+    background: var(--card); color: var(--muted); padding: 6px 13px; border-radius: 999px;
+  }
+  .chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+
+  h2 {
+    font-size: 15px; margin: 26px 0 11px; display: flex; align-items: center; gap: 9px;
+    letter-spacing: .01em;
+  }
+  h2 .pill { font-size: 11.5px; font-weight: 600; padding: 2px 9px; border-radius: 999px;
+    background: var(--neutral-bg); color: var(--muted); }
+  h2.hl .pill { background: var(--good-bg); color: var(--good); }
+
+  ul.list { list-style: none; margin: 0; padding: 0; display: grid; gap: 9px; }
+  li.item {
+    background: var(--card); border: 1px solid var(--line); border-radius: 11px;
+    padding: 13px 15px; box-shadow: var(--shadow);
+  }
+  li.item a.t {
+    color: var(--ink); text-decoration: none; font-size: 15px; font-weight: 600;
+    display: block; margin-bottom: 6px; line-height: 1.45;
+  }
+  li.item a.t:hover { color: var(--accent); text-decoration: underline; }
+  .meta { font-size: 12.5px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 5px 10px; align-items: center; }
+  .meta .tag { background: var(--neutral-bg); padding: 1px 8px; border-radius: 5px; font-size: 11.5px; }
+
+  .empty { color: var(--muted); font-size: 14px; background: var(--card); border: 1px dashed var(--line);
+    border-radius: 11px; padding: 22px; text-align: center; }
+  .err { background: #fdecec; color: #8a1c1c; border: 1px solid #f5c2c2; border-radius: 11px;
+    padding: 13px 15px; font-size: 13.5px; margin-bottom: 16px; }
+  @media (prefers-color-scheme: dark) {
+    .err { background: #3a1d1d; color: #ffb4b4; border-color: #5c2c2c; }
+  }
+
+  footer {
+    margin-top: 40px; padding-top: 18px; border-top: 1px solid var(--line);
+    font-size: 12px; color: var(--muted);
+  }
+  footer p { margin: 0 0 6px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>Tesla 新聞彙整</h1>
+  <p class="tagline">Model 3 ・ Model Y ・ 台灣市場｜近 30 天公開中文新聞</p>
+</header>
+
+<div class="bar">
+  <button id="refresh" type="button">
+    <span class="ico" aria-hidden="true">↻</span><span class="spin" aria-hidden="true"></span>
+    <span>更新最新新聞</span>
+  </button>
+  <span class="stamp" id="stamp">載入中…</span>
+  <input id="q" type="search" placeholder="搜尋標題關鍵字…" autocomplete="off">
+</div>
+
+<div class="chips" id="chips">
+  <button class="chip" type="button" data-topic="all" aria-pressed="true">全部</button>
+  <button class="chip" type="button" data-topic="Model 3" aria-pressed="false">Model 3</button>
+  <button class="chip" type="button" data-topic="Model Y" aria-pressed="false">Model Y</button>
+  <button class="chip" type="button" data-topic="台灣市場" aria-pressed="false">台灣市場</button>
+  <button class="chip" type="button" data-topic="品牌動態" aria-pressed="false">品牌動態</button>
+</div>
+
+<div id="error" class="err" hidden></div>
+<div id="content"></div>
+
+<footer>
+  <p><strong>關於這個頁面</strong>：新聞由 Google News 公開 RSS 自動彙整，分類為程式依關鍵字判斷，僅供快速瀏覽參考。標題與連結均為原媒體內容，著作權屬各原媒體所有。</p>
+  <p>本頁為個人整理之新聞聚合頁面，<strong>非 Tesla 官方網站，亦不代表 Tesla 之立場或聲明</strong>。車輛規格、價格與供應狀況請以 tesla.com 官方公告為準。</p>
+  <p id="foot-stamp"></p>
+</footer>
+
+</div>
+
+<script>
+(function () {
+  'use strict';
+
+  var DATA_URL = 'data/news.json';
+  var state = { items: [], topic: 'all', q: '' };
+
+  var $ = function (id) { return document.getElementById(id); };
+  var contentEl = $('content'), stampEl = $('stamp'), errEl = $('error');
+  var btn = $('refresh'), qEl = $('q'), footStamp = $('foot-stamp');
+
+  function esc(s) {
+    return String(s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+
+  function fmtDate(iso) {
+    if (!iso) return '';
+    var d = new Date(iso);
+    if (isNaN(d)) return '';
+    return (d.getMonth() + 1) + '/' + d.getDate();
+  }
+
+  function fmtStamp(iso) {
+    var d = new Date(iso);
+    if (isNaN(d)) return '未知';
+    var p = function (n) { return n < 10 ? '0' + n : String(n); };
+    return d.getFullYear() + '/' + p(d.getMonth() + 1) + '/' + p(d.getDate()) +
+           ' ' + p(d.getHours()) + ':' + p(d.getMinutes());
+  }
+
+  function matches(item) {
+    if (state.topic !== 'all' && item.topic !== state.topic) return false;
+    if (state.q && item.title.toLowerCase().indexOf(state.q) === -1) return false;
+    return true;
+  }
+
+  function renderSection(title, cls, items) {
+    if (!items.length) return '';
+    var html = '<h2 class="' + cls + '">' + title +
+               '<span class="pill">' + items.length + ' 則</span></h2><ul class="list">';
+    for (var i = 0; i < items.length; i++) {
+      var it = items[i];
+      html += '<li class="item">' +
+        '<a class="t" href="' + esc(it.link) + '" target="_blank" rel="noopener noreferrer">' +
+        esc(it.title) + '</a>' +
+        '<div class="meta">' +
+          (fmtDate(it.date) ? '<span>' + fmtDate(it.date) + '</span>' : '') +
+          '<span>' + esc(it.source) + '</span>' +
+          '<span class="tag">' + esc(it.topic) + '</span>' +
+        '</div></li>';
+    }
+    return html + '</ul>';
+  }
+
+  function render() {
+    var shown = state.items.filter(matches);
+    if (!shown.length) {
+      contentEl.innerHTML = '<div class="empty">找不到符合條件的新聞，換個關鍵字或分類試試。</div>';
+      return;
+    }
+    var hl = shown.filter(function (i) { return i.group === 'highlight'; });
+    var other = shown.filter(function (i) { return i.group !== 'highlight'; });
+    contentEl.innerHTML =
+      renderSection('亮點報導', 'hl', hl) +
+      renderSection('其他相關報導', '', other);
+  }
+
+  function load(manual) {
+    errEl.hidden = true;
+    if (manual) { btn.classList.add('loading'); btn.disabled = true; }
+
+    fetch(DATA_URL + '?t=' + Date.now(), { cache: 'no-store' })
+      .then(function (r) {
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        return r.json();
+      })
+      .then(function (data) {
+        state.items = data.items || [];
+        var s = fmtStamp(data.updatedAt);
+        stampEl.innerHTML = '資料更新於 <b>' + esc(s) + '</b>　共 ' + state.items.length + ' 則';
+        footStamp.textContent = '資料更新時間：' + s + '（雲端每 2 小時自動重抓一次，按「更新最新新聞」可取得最新一份）';
+        render();
+      })
+      .catch(function (e) {
+        errEl.hidden = false;
+        errEl.textContent = '讀取新聞資料失敗（' + e.message + '）。資料可能正在產生中，請稍後再按一次「更新最新新聞」。';
+        if (!state.items.length) contentEl.innerHTML = '';
+        stampEl.textContent = '讀取失敗';
+      })
+      .then(function () {
+        btn.classList.remove('loading');
+        btn.disabled = false;
+      });
+  }
+
+  btn.addEventListener('click', function () { load(true); });
+
+  qEl.addEventListener('input', function () {
+    state.q = qEl.value.trim().toLowerCase();
+    render();
+  });
+
+  $('chips').addEventListener('click', function (e) {
+    var chip = e.target.closest('.chip');
+    if (!chip) return;
+    var all = this.querySelectorAll('.chip');
+    for (var i = 0; i < all.length; i++) all[i].setAttribute('aria-pressed', 'false');
+    chip.setAttribute('aria-pressed', 'true');
+    state.topic = chip.dataset.topic;
+    render();
+  });
+
+  load(false);
+})();
+</script>
+</body>
+</html>

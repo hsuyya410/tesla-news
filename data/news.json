@@ -1,8 +1,1395 @@
 {
-  "updatedAt": null,
+  "updatedAt": "2026-08-04T16:58:32.095Z",
   "window": "近 30 天",
-  "total": 0,
-  "highlights": 0,
+  "total": 154,
+  "highlights": 36,
   "failedQueries": [],
-  "items": []
+  "items": [
+    {
+      "title": "特斯拉爆懸吊失效危機！美急查120萬輛 「1徵兆」別忽視",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBKbU1ETzBoUzFBWVVLM0hsdWZaSS14b21pLUlhZnY0V0gzd2h6TlRQSy1uVGJZNnZhQkxObkRzMHUzR28tSFZXalVLZjhhdw?oc=5",
+      "source": "TVBS新聞網",
+      "topic": "Model 3",
+      "date": "2026-08-04T12:46:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "Tesla Model Y 長續航後驅版抵港 YOHO MALL 率先試駕",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQb2pYc2JtUVo2VFpqLXBnVkNLX3FpLWlDSWNZRzd4cnJncW8zYlJWVm4waEtPbmZ3dHRyY2NpaVBRNzREWXpSWUhPZl9UaGN0a0kwSHBOTm9OWldYSzNxaUg3OEV0dVEycU93Mjh4dHdMMnFLeDNUd04zWVBjSVg2VUtB?oc=5",
+      "source": "unwire",
+      "topic": "Model Y",
+      "date": "2026-08-04T10:56:24.000Z",
+      "group": "highlight",
+      "score": 1
+    },
+    {
+      "title": "中國電池真的那麼厲害嗎？從 5 分鐘快充到 Model Y 刀片電池故障",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFByMkVBYnRjMFRGU29Wb0NvWTJwQk1hN0VLdTllb1REZVJwdFBTc0l0UUplVzZPV21oUHgxa2h6dUtjNE5qRVhwNXBMN0plcGhuTVdNOTI0X09BdmtkMWxKazg2R0l3d3F2VnM5dw?oc=5",
+      "source": "electrify.tw",
+      "topic": "Model Y",
+      "date": "2026-08-04T04:47:31.000Z",
+      "group": "other",
+      "score": -1
+    },
+    {
+      "title": "科技熱議》特斯拉「皇冠上明珠」會被中國拿走？上海超級工廠可能被「處理」，為與SpaceX合併鋪路？還是怕台灣有事？",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1JSnlhektadjgxX3ZBYU5JeVFZOGpNckRlTFpyLVRaVk1pdEd2OXZqZ2M2U0xTOXlERXlfVGNKRWxYeDhRTGhyWk1EQW5QUQ?oc=5",
+      "source": "風傳媒",
+      "topic": "台灣市場",
+      "date": "2026-08-04T03:30:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "2026年7月台灣汽車市場銷售報告｜Toyota Corolla Cross狂賣4710輛特斯拉熄火、Lexus復仇奪豪華車冠軍",
+      "link": "https://news.google.com/rss/articles/CBMi8gNBVV95cUxOR3dRb1pqc1dDQ1JqYVpYRi1wdGJUZ3VYT0pGbnhwR3l2MEtVVmVULXBPTzFxV1NyZUw4OTZyVUtOcnhGNEM1UHBDNm8zWHppUWx2Rm1DUFZyWTdPUmVJblRxaTFGTlpMNWdSVkFMeUNORWpvOTFLRGI2YkIyTFJydmk3dl80dXB3ZkpKNmtjdWRaLWJNOW5xM0RwTFNoNHpyUUE0U3k5Q1BvY0FZdWZjWFIzNXRxa1hrcUw1eHZyaUVvbmVYWERhNl9WREttTlJfMGY2MGxsZ1QxdGhVeG52aEZrV3pOd1k4dXRhOGpYNlVlczdKZkhFeExycHBGV3dUZjllUXU1NkRDTVZzZkw3cjRmNVZ2V3lDeUFibjAxbHdkMnFiU1hOYW80elFoNlhqbWVfX1FWU0xaNXY4NnVXQjVod3VaOFh4amhJSThrQ0hQRU9wYWpPSlNSaGVZR3JRZmZySFdodmVPbDZHUllGS2dMR3ZXMkJOeDhFTmVnVUhjS0wxdlVraWdsaDVHbVhyWjg4dFNHNHJRSTFCRVZldkNjOTZTTWxfNUp6ajFpeWgtRk92NVZKZGNEQkdjNkdVZmhReV8xOUIxMFlYd0hlLXpId2JYOVFqQWplMTc3b2lVM1NrVW1lMHFOcmhXd1B6Snc?oc=5",
+      "source": "Yahoo - 汽機車",
+      "topic": "台灣市場",
+      "date": "2026-08-03T23:23:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "去中？傳特斯拉考慮出售中國業務 馬斯克火速回應了",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5Vc0g2YnpvY2stOHVTN0lBZmlfazQtaFJwT2w0YmtmMWNPbk5BV0Y0UWZoWk5kYm9RM2sycjNpc0w0Z1BxZnkxT0xQRVVKZENQQmU1V1llZF8?oc=5",
+      "source": "自由時報",
+      "topic": "台灣市場",
+      "date": "2026-08-03T20:39:01.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "銷售戰報／7月特斯拉熄火買氣依舊熱絡，Jimny再掀銷售熱潮",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9kYkhqdFpCLTk5R1NqRjlYQUhwdUpCcU03M1hFOFFkMzR6cDZNOUgxcDRLVloyTHpNbkZpaTU0Y1lNRXZ4YjlmM3ZRMEJvSnllS2c?oc=5",
+      "source": "地球黃金線",
+      "topic": "台灣市場",
+      "date": "2026-08-03T18:07:05.000Z",
+      "group": "other",
+      "score": -1
+    },
+    {
+      "title": "銷售戰報／7月電動車掛牌腰斬，少了Tesla助攻靠Bria、iX1撐場",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5NWFpfMUFsRS15RXNKS0xRcXdSbXZKYkFJb3lfTUhQblJOZXZnZjRTQmV4Rkp4V0tFcHFqNXVhX0R1WGNvd1JQVTUxWTBjeHAweFE?oc=5",
+      "source": "地球黃金線",
+      "topic": "品牌動態",
+      "date": "2026-08-03T17:07:05.000Z",
+      "group": "other",
+      "score": -1
+    },
+    {
+      "title": "Tesla 在 Fremont 工廠生產第 1000 萬輛電動車",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9oYktuZVNrSTJ2Wm55X1hwVVN6Z1o1Nlo5Vmx2YlE5cWh0VThkX3VXc01UWmlzaWZJVUJQQ2RaM1FEdndfdE5VUk53NFJfMFlpZ2c?oc=5",
+      "source": "蕃新聞",
+      "topic": "Model Y",
+      "date": "2026-08-03T16:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "Tesla全球累積生產突破1,000萬輛電動車！下一個2,000萬輛目標挑戰才正要開始",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1uNTQxM1VYd1Mtc2NsWlVPZWxBTzNxb0dvNjJMVnRtQUZkX1V0ampnbXJFSngyWnlsc2wzaVNnT1I0T3Y4LU9DRmx3ZmpmYl9Zb1E?oc=5",
+      "source": "地球黃金線",
+      "topic": "Model Y",
+      "date": "2026-08-03T10:36:30.000Z",
+      "group": "highlight",
+      "score": 1
+    },
+    {
+      "title": "Tesla 傳考慮切割中國業務，為 SpaceX 合併鋪路",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNY3lGamJLOXBGcTBqczBHWW5mdEhFeWhZcmNYdGNBT1hEeHdlcl9sRC1aR0RldF8zSmE2S1dsdUg3WWUxTGNlUGNXNTdBSW1MTGtOUmljS1E0V2p2NlpzSWo3V2xnTnM2a0RBLTA4QWVlM2FuVkd0OE1vaFFGU3NNZjJSWjJXdE95V0ppck80WHVXb2IzaW1rY3B0NG53bnBLSkk4VDV3?oc=5",
+      "source": "inside.com.tw",
+      "topic": "品牌動態",
+      "date": "2026-08-03T08:34:44.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "Tesla爆懸吊故障風險 美國NHTSA啟動120萬輛車調查",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONW42NWNhVmFIWUpTTUNKRkNHMmJkMjB6NFUxM1NXdWR2enBhbE1oazZCNHhELWFNdUtnT1RRcVdoRkhqQXhfR3ZSdWdNc0oxNXQteTlScGZUQTlvWGJOejJweUl4NjRlNjNqV1JNWlMyQnZ5WjZvOGo5TTNQcFpFLVFiWjlmdFctOFFrdnF3?oc=5",
+      "source": "DIGITIMES",
+      "topic": "品牌動態",
+      "date": "2026-08-03T04:16:00.000Z",
+      "group": "other",
+      "score": -2
+    },
+    {
+      "title": "特斯拉再陷爭議！前懸吊疑脫落導致失控 120 萬輛 Model 3、Model Y 遭美國調查",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFA5dGZQSXk5cXlOZHZlV0h0d0dTMi1peEJwM0xCTU5pbHppUlU3Szl1NHYySl9IT0VOb1pqV3BhRUp0WnM0R19DQVFB?oc=5",
+      "source": "自由電子報汽車頻道",
+      "topic": "Model Y",
+      "date": "2026-08-03T01:50:00.000Z",
+      "group": "other",
+      "score": -3
+    },
+    {
+      "title": "特斯拉正式回應台灣 Model Y 電池事件！承諾換新、補償，代步車數量加倍 | electrify.tw",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBYeHgzNnpuamNUaFcwYzBSMzdwV2M3cXY2bm9mcERyTkstUUFFZmR2V2IxMFJtbFZGQkNDV2NWR3FVWlF0aFNPNndYa3oxZ3k2bzl4S2tB?oc=5",
+      "source": "LINE TODAY",
+      "topic": "Model Y",
+      "date": "2026-08-02T22:57:54.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "走了20年 Tesla迎來千萬輛里程碑",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOSkRMV29NODFCVzF5V1dpV0NjWUhsdElMMmZCRjc4WTVVU3o2MVgtdUFLelMtdTJLRktLVmxwcktmZmktN0dZYk9INjZpUXJ6RWx4UHhKOXg1Zmo4d1NURklnQm9YQzNNSEQ5OURaWkpFRG8xZzdjbXN4QWxjLVpYTk53T3pIY2ZZSlFkdzVTUEd5MGV6TGJzbUpJbFVXa29zd0YwdnRKT29rQVRnYXVqMHd3Z05hU3o0QXZaN05WbGRqcEl5VFRiRHJfSk81OFRuam5OTUxtZm9DNW9rWko1ZWROMXo3aWFRSjN2QWFhZw?oc=5",
+      "source": "CARTURE 車勢文化",
+      "topic": "Model Y",
+      "date": "2026-08-02T16:04:10.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "車廂降溫更快、夏天續航力更優，特斯拉 Model Y L 不只空間變大熱管理也進化",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB6UTZ2a3BZVWtEMlptLUlTUllnbmRIWVVUU1p1bENmVjhHV3JrblZTOWsyU0E5QUtLRFhyT0MwdnF4RTdqdjdELXNDaHpHWXM?oc=5",
+      "source": "DDCAR 電動車",
+      "topic": "Model Y",
+      "date": "2026-08-02T03:30:00.000Z",
+      "group": "highlight",
+      "score": 2
+    },
+    {
+      "title": "實測打破迷思！電動車快充傷電池？Tesla實測半年跑2.5萬公里證99%電量全靠3大電池保養心法",
+      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNZWhqTlM5ZXQxMW41RDlwclVSdFRfeFZXQWtESkxCU2U0Vy1PMGY0OWtub2pyaFpkcVpTYnVkYU93Nm1yengtVkFBT3VIRWJRU2RKSVdTSWR1MjRhOEhXR1J0T09Fa2x0NlJ4N3dsNkZ2WERURmhtYk1KQkdWb1BLVmkyMTZMc1VqaWJXcy1KOG1jOGxzT3lhak16eTlVNlRIOGVyX3hicG9JQmRUdDVIWVp4T3gzdVRsTVMtZVhMZzNSQkFScVpIMEMzR2c4OTczbHo3dzFBOWY3cnA3ZFg1QnQ2YUJPM3hjQUwwYXQ4TGlVOEJNak5iSjRubk84RFVycVY2dzdESW5Gdw?oc=5",
+      "source": "新假期",
+      "topic": "品牌動態",
+      "date": "2026-08-01T23:30:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "近 120 萬輛特斯拉遭美國調查！Model 3、Model Y 懸吊問題可能召回 | electrify.tw",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5nMkcwNWNIejd6WFpYVXhPdlpVNU01R0xnX2s0SmFoME9jYl9CTjJ2VlBoeWh5YmoteW1jM1JEOU9DMjJUR1F0V3c1cnZjODNHblFYY2VR?oc=5",
+      "source": "LINE TODAY",
+      "topic": "Model Y",
+      "date": "2026-08-01T20:21:51.000Z",
+      "group": "other",
+      "score": -2
+    },
+    {
+      "title": "特斯拉 2026 夏季更新台灣開始推送！13 項新功能彙整，還有加速更新小撇步",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1ZNzRmOWJIdGxObGRQZVNQczkwa2hIRlpkN1ltdXIxLW9pU1o3LU56WUxiNEkzMTBZNGpnQVlMbXZfdDV2alR6M1I2WUQ?oc=5",
+      "source": "蘋果仁",
+      "topic": "Model Y",
+      "date": "2026-08-01T15:41:29.000Z",
+      "group": "highlight",
+      "score": 1
+    },
+    {
+      "title": "與台灣安危有關！特斯拉考慮出售中國業務築防火牆",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBQQTFUa1ZVTFhxTVd2OXZFcnEwVUtoaDFvYWdnSmdiYS10SGRCRURHZ0w1WmVnRWcySWdDQlB5T2xQNDE2YWdFYzJVVUtPdmtGNHJETGQwdXg?oc=5",
+      "source": "自由時報",
+      "topic": "台灣市場",
+      "date": "2026-08-01T10:45:33.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "近 120 萬輛特斯拉遭美國調查！Model 3、Model Y 懸吊問題可能召回",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9FUV9WcGxOdFpaaVEwS1lYckM1eWduOWNZdm5zcEV0NDZSYThJZXpkZ1JCZllha3JXWVd6Ny11eEVBTWRtN2x5Z2pZbVBTaXJPRzh1emxpdGw0aTF3Y2NDdG5PMWhMZlVGWnVF?oc=5",
+      "source": "electrify.tw",
+      "topic": "Model Y",
+      "date": "2026-08-01T09:49:35.000Z",
+      "group": "other",
+      "score": -2
+    },
+    {
+      "title": "【一周新聞回顧 】賓士全新 GLA 亮相，特定年份 Model Y 電池故障狀況特斯拉回應了",
+      "link": "https://news.google.com/rss/articles/CBMi6wNBVV95cUxQQVRWWWpDUU9GM0FyVHBraHVrc1hfSUZPXzBCNzVvNEFVYzgwZTlFRVdLbXBzdTFfWTJRTEVqODYyS2gwWlRYelEtVmpPNmZ6SmRaN3Ixazkxc2llNzAtbEpvclVuN2U0VkN6Y2w4alJ0aWVNQUc5ZDZ5UGx3VGZ6c1pFRTdNZWNLNkxnNnpLOEFLZy1zaEo3MlZPTVF6dlg5TmtGN0RRc0lCQWNMalJrSzg5bXg3aS1RRnk0MVNVSTk2WmRMUWxzeUY5WnhFS1JwRDdkbmpzMTJRQlJGV2k4X0VqQ25vR0RJbDQ5Z1VjYVNqV25pcGxnNy1tdkRMZkRtQWJIMlAxUVN5cUpBblZmVk0weDhtTVJ1alJ2bG5DcFp6YWVVQ2JraTMtc0EyemNUU3hCX3p1ZmpyYWVPbHdaRXlEOTJxOG5sbmdFUUhwdWVMNFlEdDI0X2JhZDJNRGxCM3VacHRwQUxhbUZhZlM3dmVhcHp0WkVTM0RBQ3NpblE2OTBHZ1BlUDNkV2NRS21iaGk3ZnBEYnJ5dFJ0dER1LXNJb1hNLXBOdWVITUpLNW5ob1ZZbkRTYl9lM0NqeE1MMjhqLWZadm11NUFQYk82WGcwZUhYN0xIeEU4VklSbkF1bGl0UG5LZEN4Yw?oc=5",
+      "source": "DDCAR 電動車",
+      "topic": "Model Y",
+      "date": "2026-08-01T04:15:00.000Z",
+      "group": "other",
+      "score": -1
+    },
+    {
+      "title": "Tesla 啟用全台最大 V4 超級充電站 台北大巨蛋限時三天免費充電",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9wUGc3emVHT2NTQUcycWtRZFBnYTJpRWMydkpNMWV3bExNamh5VWhVU1JKNzhhQUVZd2FfZTlXbC0tRF9mcGhUN0V0dEFUUHV6ZlFV?oc=5",
+      "source": "supermoto8.com",
+      "topic": "品牌動態",
+      "date": "2026-07-31T18:20:23.000Z",
+      "group": "highlight",
+      "score": 1
+    },
+    {
+      "title": "特斯拉全球第 1,000 萬輛車！黑色 Model Y 於加州 Fremont 工廠下線 | electrify.tw",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4wUDEwTC1NaUs0Y0V1X2xrZGxiY2JoMV9LRTMwbnA2dnNyaElaa09NVVRBcjBTcERxRnFTOVZBRklDZ044ejJRbVpvcWs0ZDR5c0lyNW53?oc=5",
+      "source": "LINE TODAY",
+      "topic": "Model Y",
+      "date": "2026-07-31T10:16:31.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "北京觀察》特斯拉與SpaceX要合併？美中地緣政治夾縫，馬斯克面臨最大「截肢」挑戰 | 田暢| 新聞",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBFLVdwYUZ6aWYwZS1US3Vhc0J1SFB6RFc0UjlRamJMUmdHSUtVNm51NGlKTHFmWDh4RDBlM3U5M1gxMF9UdHdMNjFmLWJBUQ?oc=5",
+      "source": "風傳媒",
+      "topic": "Model Y",
+      "date": "2026-07-31T10:03:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "Tesla 第 1000 萬輛電動車在 Fremont 下線，成為全球唯一純電產量破千萬的車廠",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTHVCWnNhREd6UHIzVzAxSGVGTE9mOXgySFFyTHpNNi1hcmpqcTN2Qzhpa2NXdXpZdjltV0piNHd6dl9ndXo0MXEwR2pKbjY3b0xXa0x2TTdURWxnbEkySklTZUZvYmJFM0lUVS04VG1iYk9xalJoamg0bkJzLUIwQWdTUmU3VFowN1ZabXZzV0ozREdYRkExZ0ZHQkdhMDN2VzNwUVN5b0twc3RlZ3pPWGhCbkRORmQ3ZGtfTWpweHBIcTF4Y0E?oc=5",
+      "source": "inside.com.tw",
+      "topic": "品牌動態",
+      "date": "2026-07-31T08:32:31.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "Tesla Model Y輸了！6月台灣進口車銷量冠軍是它，車主讚：空間大又省油、 好開保養也省錢",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1RWGJvSHJsMVRrMjZSZ0l2M0JnZTk0TndKMFloTkRpSDdjbzQyeUxaV24wdmVFajJqRW5zQ0l0UmphUHNFUEpiSFBGTDh4cWJI?oc=5",
+      "source": "風傳媒",
+      "topic": "Model 3",
+      "date": "2026-07-31T07:30:00.000Z",
+      "group": "other",
+      "score": 4
+    },
+    {
+      "title": "特斯拉每賣一輛車少賺4萬元！單車獲利暴跌40%、Toyota差不到1200元緊追",
+      "link": "https://news.google.com/rss/articles/CBMipANBVV95cUxQQkJtR3dkWjVsdUZBMlp2VS00R0R4Q0pKZEZPeGdUV3N1cWtyZHl3TlY1Ujl2TmdmN1haZjM3M1pRQ055cXJJdFVTWmU1Ry1aYTZEUVd0QUtGNXFXczdsY2UzNXRSd1hNbGRkYVVlUnNra0hTc0FJcjJNN3lrcENVNVdNNFRBT2Y4ZFdEazktSEN6bnNPWE04TXNyeFdmX09kNlpISjkwUzFrdkNxSXhIQ3JBT1F1dUFPdjdOcE9fSmpreDJ6R29ZbFlqRjdxUlcxLUJ3NWtpZEVhUlhDTlp1QmxkZmJjTEZaRWRocUhsbGloT3NmVnk3TUpOQlpESURFZmdDZkYxN05VS19ZTUIyR0NZNGZWbVdFWllwbDM5UEl4NFlmaUZkSC1pczJOQmV0bW9KY2M2a1RLQmdYejBSNGhTdE9xQlBCeUpVcVpkbHo0VUdHS2pnR2E3N05MeExLN0NOTkcwRWdFUWpYeUV0Tm5NRm1pWENabzg4bG5Zelc2d2psTXBTdUpEeWFZLTNtZVFzWlpaSzZhcHpaNlE0MXVqcXE?oc=5",
+      "source": "Yahoo - 汽機車",
+      "topic": "台灣市場",
+      "date": "2026-07-31T05:51:54.000Z",
+      "group": "other",
+      "score": -1
+    },
+    {
+      "title": "紓解手機容易過熱、充電效率低的惱人狀況，特斯拉 Model 3 和 Model Y 據報將升級風冷無線充電板",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1IZzNnVzRlN0ZJVlRySTRYU2h0UGJwamhnSHVPQ09kbFZxdTduUTNiUm50bGx6S3MwMlY0cGlBR0l5SHRYVnhPUVVyOGQ4RHM?oc=5",
+      "source": "DDCAR 電動車",
+      "topic": "Model Y",
+      "date": "2026-07-31T05:05:00.000Z",
+      "group": "highlight",
+      "score": 1
+    },
+    {
+      "title": "60歲婦人試駕Tesla Model Y失控撞店家，控未盡告知義務向Tesla求償千萬美元",
+      "link": "https://news.google.com/rss/articles/CBMiogNBVV95cUxOZE1qX1lzYm5XMk1uVGRhVzlvTlNYY2ZMN2VWN29FT1ZsS2ZiRUcyLTFFYjR4Ym85SjEwVjh3cDRicC1EWnY3bWZYQXVpSFB4X0czcGxZM29Hc2d6bWdNU0lMdzl3WGc4SEhmX015emxlZTcwbGY0Mkt1U2JqaGUyWXVqaDBybEQ1U1ZBT0l1YmhRMWRlV0RtM3ZXNEtSUFA5QVdhamp6akVBVUc2c1JQMkRhUXcwR3BWTXlxSGR0Vk05R2NLS19XRTVEUThSVXVXME1zZmxzSk45eUxQRTR2WTZicDdIcml5VW9VU21pNTZ2WWFfRlJvOVZyLWQ3MHdFUjRKbFVsSkpxTC1qdXZLaXFQUGpZX1llZEswSURnQWtGTDN5bmptRm9haEdaNTZTSHRZRDhJSGVFY2ZoTlJ2UU4tcHV1a1NkaW1HdmozcmI3SnZyQ2VXVW9iYjVmUWQyQ2U3X01vaTdFZVpoMC1HOEVXeE1ZbW9YQjBmV1U0R1JPb0diY04zdjBiZHdRNktnZ1lPMHR5REhsOGpVTkZ5MVpR?oc=5",
+      "source": "Yahoo - 汽機車",
+      "topic": "Model Y",
+      "date": "2026-07-31T04:41:54.000Z",
+      "group": "other",
+      "score": -3
+    },
+    {
+      "title": "特斯拉總共製造了多少電動車？",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9ZZ3dXdlFCN1l4dFNSSENIMVJkOGNtZkhlQUxhNGZtckVkNEtYZkNGUXdjODFWZGw2VG9iTGhLU1VBYmdEdWNvelBST3hqdE04Y2l0OW85TGVnaDZKTGpoX3VqMnhRS1JSVmM4?oc=5",
+      "source": "TechNews 科技新報",
+      "topic": "品牌動態",
+      "date": "2026-07-31T02:13:03.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "一年養車差了快40萬、特斯拉比賓士更省！台灣電動車掛牌創新高",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5aOGVQN0dRdlljRGVFODRYaHp4Tm5BZXZHXzZ4NXh3RFpnS0tGczVERlozU1BfUFJRN3BmZE5fTTRGamRiOHRHNmFDR0ZsLUHSAU5BVV95cUxNYWVxbU1KQlhwNjFidU5TekxzVnJRUVNfRi05dG05dmRJenJYenppMmxaRDNHeTlEUWt0Q0V3eWlsVER5TnIwZ2lZeThITUE?oc=5",
+      "source": "ETtoday車雲",
+      "topic": "Model Y",
+      "date": "2026-07-31T01:03:00.000Z",
+      "group": "highlight",
+      "score": 2
+    },
+    {
+      "title": "LGES美國方型電池布局再下一城 繼Tesla後傳再奪本田訂單",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNY1o2ZExxNXBTajctd1hfSGdnY2JXTzR6MjhOcEwxbnR2LWVqdE00d3V0bTBwM1ZHcXljTGIwN2thZlJZNEN0eERiQk53VFhBZlgxb1BkVEEzMFdGd010NXlPRjV4bHFFc3dqelA4Q0V6XzdwZTgxUWRBMWtDT1dycjBhZjh5TmQwTl9TNWFR?oc=5",
+      "source": "DIGITIMES",
+      "topic": "品牌動態",
+      "date": "2026-07-30T22:05:11.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "特斯拉全球第1,000萬輛電動車下線 上海超級工廠上半年產量創新高",
+      "link": "https://news.google.com/rss/articles/CBMiqgNBVV95cUxObTZUTWxaY0RJMFVsaHJlWVhWTlozWVBBRDBqUF9TaGFzLUpnV0x0ZE0yd0FJa1NKRndpdGpydnFhRU5pNElLLUxrYlBwMVA3T2U0WUVEVDMtb1VqdjJZcnpfQjVZZnIwWGlTNnlRR1ZLcTkxQkFKZGg5SWt1bEoxaTNpeUM3SUpwMVY4UTh4Q0hON0pJYWtnc3BkcjBRYmJULVdydTE5bXRGaTJteVhNaHA0eXBuZ0tlTnNKaE80NnR0V19zdDI3aVcyTHdvQmZQdjltLVp6OGxYNERlRmZtOHhqYm1kX3RfWGd0eFVZVzlYLUlNWHZPU1BKbFpocDdFMi1xanpPVnZkNWJjS1FaRUQ0Tm16Z0o3aHhqRzlkbXJzRmdxM2hYZlF3d01CV3JhRHlhTmF4amhITGVsSXhhUWMxWHh5VV9SYnZmZkdpRlphYnY0M01Pa1RjME1IeHlPT0Fhb0I2WHFicnk0ZWxVYzhFa1d0S3NHdVowaXRteDlWbG5nMTloU0RvSGZzX2gta2NmSkNZS1poNnh0LWlmSUxSNnVvRURmQ2c?oc=5",
+      "source": "Yahoo 財經",
+      "topic": "品牌動態",
+      "date": "2026-07-30T13:19:35.000Z",
+      "group": "highlight",
+      "score": 1
+    },
+    {
+      "title": "特斯拉 Model 3、Y 全驅版動力升級！換裝新 TL2 前馬達、單具馬力輸出上看 239 匹",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5TYkFydE0zWGR5Mm0wYVhxNHJ3WGdEcTFUY3QxOGJ4bExGY1lDREpOM0VURTR2cUprOEFfZnl0YkE0OXNxSGRpdHk5YU0?oc=5",
+      "source": "蘋果仁",
+      "topic": "Model Y",
+      "date": "2026-07-30T09:01:01.000Z",
+      "group": "highlight",
+      "score": 2
+    },
+    {
+      "title": "全球最大汽車運輸船首航！一艘船塞進近8千輛Tesla：排成一列長達36公里",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9kNkhTSDBCcUZWdFFtZ3BEOVdVVmdLNVZmVjVCU0VrZVNydlhKME1Sa2VLa05XdE5qQUxUdmwwR2s4MHVWaDdTU25rcGg?oc=5",
+      "source": "地球黃金線",
+      "topic": "Model 3",
+      "date": "2026-07-30T04:20:33.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "電池故障免驚！Tesla臺灣承諾免費換新還加碼補償",
+      "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxPMFlwcFpKSjlTRWR4cGZrek5RcDVZZlh0Z01NR21ZRHktdDBsVzNFaEJkQTBmRlZVZHVMdHVOS3g5S3B2bW16OVkwYzM1MkdwSG1Hc3hNR2pHZkp2Q08zOWF1ZnBuN0dlRDBYN3VxVEJPQ1FlWVdpS1RKQklSUXhlVUFhbFYwVUxRN1NfbzJpOG9aQUIxNWtHNXB6c1Fwa3ppUFNjWDVST3RRZVNpdGlNWC02YUJUbDd2R200Z3NjNVRBLTJuMXJRMXcyRkhXVW4tVWh5WDNCV3BUNFJhaTZBQkh0MVJXY3pUTkt5bnhtdVdKckt3VXlvNkZ0U3YzT3JqTUF1YmhZOW5NWXZwZEtOa1RvaS1ZNmViN3ZScTlQQlgzM2lfbjRXRGVmbldjbkJpTkU4b0RYTU90eGpTTmlZ?oc=5",
+      "source": "Yahoo新聞",
+      "topic": "品牌動態",
+      "date": "2026-07-30T00:22:46.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "電池風波延燒　特斯拉臺灣祭出補償方案",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE03ZkpZeXRCbWM5aTZHME5NTUZzX3ZSb1VzX3haZENGWXc2ZVpoN2oxdXFWM01oWWlNanQ2cEdtb2dENWI0OFdxcEZZUlRVZXRsZTdFZWxfVFdscUQz0gFiQVVfeXFMUDJvcmNGOXBUNkhpZEZjUFRWV2d6WXdyQjVzTlNtN09FUTF4T3VJcFFxb0J3cV9CZUJuWHYwSWgzai0zeGY0a3JTeURxU0NVRUk3Um9EdllsdDV4WnFCYzVvdEE?oc=5",
+      "source": "鏡週刊Mirror Media",
+      "topic": "台灣市場",
+      "date": "2026-07-30T00:12:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "特斯拉公開最新數據顯示 FSD 比人類駕駛安全 5 倍，但要在台灣上路還需再等等",
+      "link": "https://news.google.com/rss/articles/CBMi5gNBVV95cUxPbDRpRUdQZS1pamZ0REt4ZFFaOXdGR3BhOVpmQzBiejRfRDh5WHdndUZPX292RjVzNUxZVGY3QzlxazBLY1RLMDN0RVhUUzd3MExmcEZ2RFJfaUpMOEJCSGRWbVNfendlZmRRNm9mOENCcGFTMVpIbTZ3VW5DSDlnWkd0dHl5MEZKQ01CR3g1VVlkcUliVmtBMVU3RnZJUER2VmxlR2JWVHRUTGd6OGdOc1lfRVVBSEF3YzFpWmwzZXo0ci1XSEFlbzh0cm80NXZDWjJqbDZnelJCaG0zY0V4TXQtZnpPaVNXa1dMSTFPeVJHbVRON0ptM21NRlhLOWdEeXVwNDNKRFc1Q3QtYm9FSzcxV3o4N0FCNHNxbmVON1pYNS1UWk5WSmNoUUM4NldwTmMtRDkzdjZ2UGxkVHdVRnRQZ185Ylp0QzcydzVmVmdlTDlWdldabFo1WGtab1RhdUU0YllreGgweTFTZjVIV08yQ3M2MG4xSGRwUXB2OHd5SkQ1NFFJdElBeFQ0VnUydWVuQTJGdG51WHhTWnVmeDB0TFA1blBoMXVtb3FWM2hPZFV2WGlLTlZjOUp3N2x3VWhRcWNNZzNqNjQyeGR6QXltTi16SmhTa3VVQ0IxTTNMb1dlekE?oc=5",
+      "source": "Yahoo - 汽機車",
+      "topic": "台灣市場",
+      "date": "2026-07-29T07:00:00.000Z",
+      "group": "highlight",
+      "score": 1
+    },
+    {
+      "title": "特斯拉爆故障！台灣官方曝：承諾免費換新電池、不影響二手價",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1fQ3VpTi1aUGQ4SzNHb19mUk11N0JvSzc3QnlLNEJ3NldEZVhkVk55dmpOQUsweENFRFdmRm1FR1ZMM3UwYnJsS1UzMjY3QQ?oc=5",
+      "source": "TVBS新聞網",
+      "topic": "台灣市場",
+      "date": "2026-07-29T05:58:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "特斯拉回應電池故障災情 原廠祭補償方案、維修代步車加倍",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5ZcnNidG9leEdjMVRvOUZ2cW1xRzlrQnItbFMyZ3E0RnhjVjA5cTMzeGtXWC1QRU1GLVgwemV5ZVJKc1UtWnYzUnpfMWNYQQ?oc=5",
+      "source": "TVBS新聞網",
+      "topic": "Model Y",
+      "date": "2026-07-29T05:31:00.000Z",
+      "group": "other",
+      "score": -2
+    },
+    {
+      "title": "TSLA 特斯拉 - 近期台灣多數特斯拉Model Y車主陸續反映，車輛突然跳出電... - 股市爆料同學會",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5nalNkTENTWEloY3BZdGY0cml0b1lwdGRvRnZWNTRwY0VtOUFpRzNkQVZWZFE3MVlKYlRxNFNPaDhCbVZKa3FMQW9xTURvNkZJZlItdFVnU0w?oc=5",
+      "source": "CMoney",
+      "topic": "Model Y",
+      "date": "2026-07-29T05:16:21.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "回應電池故障　Tesla台灣祭補償方案維修代步車加倍",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Jb3hfX0VJYlNRc2JJMGZSVHIxYlFKbUNnT3o2eWtvVE5YZnFZR2UxYV9NN0RuNUVrZ0JHdVBQTldVZDg4d1JCZ2FLVFhOS0pjUE5qMkJzN2V3cmvSAWBBVV95cUxNQlcwLVZzSXdwTHJtbmtfUFhya21XakwtTjEyRjlpZW9DZ3V6U0N0c0VUNS0yelgtcEpWdHY4dFVMakc5WnZaai0tdVc0ZzNlQmlHb0JlVzJQWmY4LTRWUWo?oc=5",
+      "source": "經濟日報",
+      "topic": "品牌動態",
+      "date": "2026-07-29T02:36:46.000Z",
+      "group": "other",
+      "score": -2
+    },
+    {
+      "title": "Tesla回應電池故障代碼 承諾完整檢修換新，提供車主補償方案並加倍全台維修代步車數量",
+      "link": "https://news.google.com/rss/articles/CBMioARBVV95cUxOVUlEUUdWVWRjWWFTZGtESmRRV1dNV19zaV9DV2lTa2pUOF9qdkplaUgzaWlGY19Fa3RzNG53VGoxamVUVUU3bkE0Q0w1S1BLMF9SdXkwSi04VXFnXzhlWGo2RjhoUzNZOEJOeHZKQ2hqc2ZTTnp1TUlIQm5UUDQxNzdaRXZrZWRfd1RVSU9CQkhuTjdjMVpFR2tEUmNqRzl0Q09oRGRLcUxtQkZzQTk5N2JPLXlORnVNcDVOVjdRU0tHYWFQM1hRdWJCVkoyNExPbTkwNExleXZldVNJY0JBanZZNWI4bzZBRk9EamNrbEsyWm9IVFdDNGVRX0hmd0ZkLThCQ1ItLWFQeE00RXI5M3BUVnhKalRJSDBlZDBmTUJ1N21rOXVONmhRRXU5U0hfa0NEdG1Wa1d2NzVzNGluLWxLTENHQXZHN041SGJIM29GckNsWkRNTDdMREM1eFlka0RWMWRHUHp2WXlLYXRMMXdZSW10dXByd3NGLTlXT0FYTjM0OU5XcDV2Q2JMRzJTM3NtQlV2OXhhdjJhRGFwdHFNSmtVZXJyTXZXMk5qcnJFUFREelZkMVp6OS1GVENQOFJmYm5tZ3k0cjJBVkd2ZEEzRDRPMWxvMlo0MW1Ta2htTkZBQWJ2Zkx6UG0wWlZFYVVpemFaZGVueERyMF9wdVd0N016S3plYWJLWGc0RjVXSUV0NU0tQ01YOTZ4RmRa?oc=5",
+      "source": "CARTURE 車勢文化",
+      "topic": "Model 3",
+      "date": "2026-07-29T01:48:23.000Z",
+      "group": "other",
+      "score": -2
+    },
+    {
+      "title": "台灣特斯拉 Model Y 出現電池故障！官方發聲明：免費換電池、不影響換購價",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBCRW9OckUwek8wSkRGSEc2cUthMFMyck9sSkgwSUc4YmlPRnVBdXhRNHFLdGNoZDJ1S2dPcXd4Nngtd0I3aVpBZzBR?oc=5",
+      "source": "自由電子報汽車頻道",
+      "topic": "Model Y",
+      "date": "2026-07-29T01:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "台灣特斯拉鬧電池故障災情 官方道歉祭補償方案",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8waUxjRkdQd043QlRfTFlid0hWQ3pzdG95X0xRaC0yT0paeDJFVGFMbl94UHRIUGt2eWZjaFhCUjZZWW5lWDYtdzZCODU4dzhkbGkzZ0FfRllHaWluSWE3ekhscjdUV2dOV3hZMU1R?oc=5",
+      "source": "中時新聞網",
+      "topic": "台灣市場",
+      "date": "2026-07-28T15:00:45.000Z",
+      "group": "other",
+      "score": -1
+    },
+    {
+      "title": "討論牆 | 特斯拉正式回應台灣 Model Y 電池事件！承諾換新、補償，代步車數量加倍",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE40X1pJc1NsRmZYc2Z4MW9ZY0huNnB1Sll2bmo3X21JelNqYnRhaGRoVzhWUEVPOGlyaVpyNEtjcG9jczB4V3hrYTZlZTJ4UE9LU1h0Wk4zcXp5N0h1c2c3d2duc20?oc=5",
+      "source": "LINE TODAY",
+      "topic": "Model Y",
+      "date": "2026-07-28T12:59:30.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "Model Y 大電池故障災情，台灣特斯拉承諾檢修換新、增加代步車數量、換購價格不受影響",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5ENmhmQ3M0R25STWRuLVFESUt6ejNjTmdTbndYQ0RQQjlvQWJJOTJtNmJPb2RJUnN1QlB5MjJEU2dMYWhtNnBmbU1ELTI?oc=5",
+      "source": "蘋果仁",
+      "topic": "Model Y",
+      "date": "2026-07-28T10:11:16.000Z",
+      "group": "other",
+      "score": -1
+    },
+    {
+      "title": "台灣特斯拉爆電池災情！出事型號、年份、故障代碼、官方回應速看",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE41NmI1YXJIVUs4T0tQUnkwbG5ERG9iNDhvWE1IX2JxQnNVVHAycTdFcl9kTDVpc2dlSUdydVBNMU11YzFPc0VDam9WZ0_SAVJBVV95cUxQTGp3WmQ5UHFqM0s5RVRGb1dRUG12S0dzeGJlUmlyU01UcFphTUJYekVHSTZJZ3pJVjVKQjlHZEhCN3JNSlY5MWhzZkhxTDBWeEtR?oc=5",
+      "source": "NOWnews今日新聞",
+      "topic": "Model Y",
+      "date": "2026-07-28T10:05:10.000Z",
+      "group": "other",
+      "score": -1
+    },
+    {
+      "title": "台灣特斯拉回應電池災情：原廠收購價格保證不變",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9PUXp0LWoyLTVsX1A4QzFPQnRESEx5VURacWNvWU9reHUtSC1DNzlkYkM3cmR2VUNrcDRDVEJ5WkJEQWN5T19zTkZPQ0lWb2J3azJrUGwzOElsaEMySlA1N2h5MU5RMndLZHJrWnpOMjNFbnJNSVJ5Zw?oc=5",
+      "source": "TechNews 科技新報",
+      "topic": "Model Y",
+      "date": "2026-07-28T10:03:51.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "特斯拉正式回應台灣 Model Y 電池事件！承諾換新、補償，代步車數量加倍",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA2YTlGem5uc0ZmeWZLMEJQbHVEVHRIc0NNZXF3NjNIMW9NUkxBX1hkRG0xdjNkc2pRU09zQnJweHZkbS03VTlFdGFzQmM5a3pkRGRseFpzZXUxRWRITFlTYm53?oc=5",
+      "source": "electrify.tw",
+      "topic": "Model Y",
+      "date": "2026-07-28T09:56:32.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "[U-EV]提供車主補償方案、加倍維修代步車數量，Tesla回應舊款Model Y RWD電池故障代碼處置",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5ySTdtYVc2WlhPWTVXUW9KSmFKS0ZUd2xtd09nUllMR0FDUU9wOFhWWlN4TGlCZ3RTTXp6bmF5REdtVHMzc1c4ZHBaNUVackRl?oc=5",
+      "source": "U-CAR新聞",
+      "topic": "Model Y",
+      "date": "2026-07-28T09:56:13.000Z",
+      "group": "other",
+      "score": -2
+    },
+    {
+      "title": "Tesla Model 3、Model Y動力更大，全驅版換新前馬達提升超過50匹",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1qR3FUMUduYnNscWNHdXdjNFVELUhyaWJtY2JCcHFKcm1mR19NNklDRkRVM2JTcVhMNjM4andXYVR2ZDFCbElLYzVnaVhMdkJDUXc?oc=5",
+      "source": "地球黃金線",
+      "topic": "Model 3",
+      "date": "2026-07-28T09:46:57.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "台灣「特斯拉電池故障」鬧車瘟災情擴大！原廠祭最新補救方案",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1vdU5wS244MzVxZG9USlphQ01KZG1sZzB3ZkhUM25qdjdvM2VtQlhoTGt4OXVLYkY4Mi1iVGlQUUtGOWRiQ0loT2hQeXlXWjDSAU5BVV95cUxOVHJwTHZHODRsTXI5cHFsS1U2NG5hWTZ4YVVwNzV2WHZ5V2sxRWx0OFk4SHVSakFSSVlhSzIxZ0FiaVVnTG5GV3hHa3FoVEE?oc=5",
+      "source": "ETtoday車雲",
+      "topic": "Model Y",
+      "date": "2026-07-28T09:46:00.000Z",
+      "group": "other",
+      "score": -1
+    },
+    {
+      "title": "特定年份Model Y 電池故障狀況特斯拉回應了：承諾完整檢修換新，提供補償方案並加倍代步車數量",
+      "link": "https://news.google.com/rss/articles/CBMixwRBVV95cUxPN0FtQXlsbHlyU0Z6ak1ZN0VQdnNrMV92YkFlNGdLazM4R29YNGJZem5WNElqcFBCa09uM1lHdlh2d2I0OUtjdXV1Q2RsSENDR1g1dkxhNjRMNW9icTM2UHdtN1JFRWNzVGpIS0pvVFZ4clhmU0NZNkhhdlROLVdMTXRlNVdvYVV0Ul92ZWpyMllhaDk0VzRjT1ZlNjFTajc5ZC1vNFowV1hNbk5LNl84azJnMkhsZk9ucjJWdUdUeUtWYzZ6R3B6VVY0RVZWVHNSMXd2MXp3Qy1FQk82UHRNdDR6ZWdZZmlNRVRSRTU4b1BLRHY2Mld6NkRMcUh6SV9PaFUxV1N2dVNtZURGQ1R5blNSYV9sQXFfOWtLcVB3M0dyRXFFenEtNHZpX1dhOThjRkVoQTE2ZDF4WEZ1QTIxSjFJc0ZCMUR0MWRQUXhvQXFoTTRKMVpfWkh6QkExdHh5TWR2eGwtbS1qMXpUVGExckhiZ0dfelVOdHJXa3pud2g2ZDlJOFhwc1J5RmZJbHBaNmNla04yXzMzMlZoTUxLNmRuM0hkdlFiU2JFRHg0cS1CX3llckFyb2JSb2lDWk5lM0Frbmo5Z2lFTU1KYVJKUFVRbmZ2NFlGZ1NNXzlTbGFZWDlSRk1GY1FiTExqcGlEVDZfSmtqZ3I3YVBMb2p1bHlEcVFSQmxHZ2xVdlNsblEtZnZabDVQV3pGUzEyS0RZRGVleUoyLXFLeFNGWVFMb1NiZ2ZQN0V5blVDalFudlMyTE5zc3Rj?oc=5",
+      "source": "Yahoo - 汽機車",
+      "topic": "Model Y",
+      "date": "2026-07-28T09:45:55.000Z",
+      "group": "other",
+      "score": -1
+    },
+    {
+      "title": "170萬買車基金先投0050？汽車達人曝關鍵建議！進口休旅、跑車、電動車全都有！地球黃金線20260727 (完整版) Toyota RAV4 PHEV、Tesla Model 3",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBqN2d3VERRYVV0ZFQ5N0JtMlI3b2ptWnBZYjhhcmlEaTVjQkJuTTI4UHp5UXlUNV9GMGJqUXZuZmRZdWE3eHlkaTlIUGNXTURyeV9fLXNVZS0?oc=5",
+      "source": "地球黃金線",
+      "topic": "Model 3",
+      "date": "2026-07-28T09:36:57.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "特斯拉軟體更新",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0zemRNb3dIa3Q0TTNFODlrOWdhQkVER2QyMVdlVmZpNTFVQkkwV1hISTRFUjZmWmdXYkpBY3VOTlBWb1ViV3J6ejZKdm9XQXBnMFVHSTM1d05HdjVrcUF2ekFxcFRScmd1bmt2V3VsVDFPc1VsQ1BBV1liQkM?oc=5",
+      "source": "Not a Tesla App",
+      "topic": "台灣市場",
+      "date": "2026-07-28T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "特斯拉「Model 3、Model Y」升級更會跑！換全新馬達今年上市",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9jYmRuZGNjVk1Ua0dEc0RzTDR2eGYwYXp1ZUFSWkFkTnh2M1Z3YzRmRWs3aVRMLWdrWnhJY25Xc0NERUYydVJhNzRPWnVzNHfSAU5BVV95cUxOU1hXUUNWTHpmb1FqdzNxdGhOcWIyVDNYM0x6bnlBLUh6emtHQ0lobjZLQmlOX3UxOVdhSjVuWUZLTFFRbmFHazY3bENhVVE?oc=5",
+      "source": "ETtoday車雲",
+      "topic": "Model Y",
+      "date": "2026-07-28T02:03:00.000Z",
+      "group": "highlight",
+      "score": 2
+    },
+    {
+      "title": "[U-EV]增加50匹以上馬力，Tesla Model 3 / Model Y AWD車型將換上輸出更大前馬達",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1WaHJLOVFXUGp4YXlHWmZOMHkxWXhDb2RUOGYxSmtUcXAyRkdSa2FfMG5LN3d4NTg3clJZN1NVamVaejRrbE12TW1wQ256NDBk?oc=5",
+      "source": "U-CAR新聞",
+      "topic": "Model 3",
+      "date": "2026-07-27T07:00:00.000Z",
+      "group": "highlight",
+      "score": 1
+    },
+    {
+      "title": "丘涵告別8年Yaris喜提新車！生日禮物投入特斯拉Model 3懷抱：希望我能保持整潔",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBNX2hPb214eVBVOERTby1KQlpVZE1PWjBQaGRjVGNwLTNVU0wxRlJRcFMwSVZhLXgzM1gwTnNLTkxmX2FldXdibWdPVVpJU1BxMFgw?oc=5",
+      "source": "地球黃金線",
+      "topic": "Model 3",
+      "date": "2026-07-27T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "特斯拉 2026 夏季更新加入三種「循跡控制模式」，Model 3、Y 操控體驗再升級",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBZVndJOXNPelJPZTM2Rm1ra2VBNklmLWF3eEd6dnoyQ1Z2MzJyMmZXblJMUW80ckFNYmF2MkV1ZUVwa1poYTUzYTgzOFY?oc=5",
+      "source": "蘋果仁",
+      "topic": "Model Y",
+      "date": "2026-07-27T06:11:08.000Z",
+      "group": "highlight",
+      "score": 1
+    },
+    {
+      "title": "NHTSA 認定 Tesla 車門把手個案沒事，卻承認規則本身有缺口",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcVRIOU1HSnhVSFJIaEh0ZVZuWGoyTnZ6QjBUSDAwcXVTMFNYbUxUZXpXRUpwTlRyZTZSNjFjSFhWU1d4OG1LT21iZm9IeVktak0tZDVYdHdqbDBqRlpoand4TmM0d01CLUl6Z3lEdDRHLV9ONGlsSVdiVV84QW8wbmhFUTRyUHp4Ri1iTnNISjhLM2o5M3BzeXR6ZGhhVlBK?oc=5",
+      "source": "inside.com.tw",
+      "topic": "品牌動態",
+      "date": "2026-07-27T01:58:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "特斯拉元老直言老東家走偏了，轉挺新創 TELO 打造「反 Cybertruck」迷你皮卡",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZVQ1TUNGbVpjM3dOd0I2RDdDbkNZRVh6dVl2RFhIeUhjSlFzOGt5Vkl1dnBuNkFxQ0NPRVNiejBMUE5mY1dLQlRhM2U2Ti1vT1UyRDZuQ2l2OG9CMzdFOVpfMXNDaGxrQUlBOW9ROVFqeEFKN25fSm5la1pONC03SGJCS1E5WG9ta3hLQjdFZWRtOVFXVEFndVBNUEhMb0ZvVlZNMnRGVTA?oc=5",
+      "source": "TechNews 科技新報",
+      "topic": "品牌動態",
+      "date": "2026-07-26T23:20:34.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "Research Insight：Tesla押注人形機器人Optimus 三大優勢打造下一波成長引擎",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWjVzcE1NQmpDWW1Pak5qV1B0NGNENl9qTGZ0QmwxSVF3VjFwUTVRMTZieWc2MW1HNmYyWFZsRnU0RWNlSnFPZWx5WHJUZnV4NDNLMEtra0h6UG9vQ1VQZGNlQ2g4Zm51dEJSeGVTMThnNGlDNTEwYmowVGpEekxqbGtDMms0SkltVDRJamxR?oc=5",
+      "source": "DIGITIMES",
+      "topic": "品牌動態",
+      "date": "2026-07-26T19:15:49.000Z",
+      "group": "highlight",
+      "score": 1
+    },
+    {
+      "title": "Tesla 說開源 Model S、Model X，但沒有授權、沒有專利、什麼權利都沒給",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPX1lGUkxvQzMtZG5ZWTFTbk5oZnZZM1hKYi1tOEMzOHg3bnVhWlBSaW9ZeDY5YjBrVUhBRFFwbXpOUE5aUnVjR3RSQkNhVGFaTTIwQUltaGcyZlNOUTNWU19rMmNFd1hYb3RzSFdyTnJDSHQ3YWVkOUpkWkdBWjA1cUdGR3JmejZMRHZkYWJHY3VLa2RSRGd5WmlWMjhNVTgxMFhFMDRsdnd1OXFIY1c2bFUtQjdDRzZn?oc=5",
+      "source": "inside.com.tw",
+      "topic": "品牌動態",
+      "date": "2026-07-25T08:23:26.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "獨家／特斯拉Model Y爆災情！官方回應了",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1sSkFYUHlFaWRweksySF9fSTJRMk43RTRRSTlXYmtvMVhCd2Q0U294VFY5cnU1WS1OcFpFNzhzT0tYb2Ixb3lTMWtTRV94UllM?oc=5",
+      "source": "news.ebc.net.tw",
+      "topic": "Model Y",
+      "date": "2026-07-24T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "特斯拉 Q2 電話會議重點整理！FSD v15 悄悄上路，Elon Musk：是為了 FSD 買特斯拉",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAzOTBJd2tWd1cxeThFR0cyNWRsMFhRanlLcWlkWkt5cGF4c1hodnlINEVsQWtyRnlqdGZOT0ZtTkwwZzExS3cyV1JxZnFKRFlHUkV5ZGkySmh0cmZM?oc=5",
+      "source": "electrify.tw",
+      "topic": "Model Y",
+      "date": "2026-07-24T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "特斯拉 2026 Q2 財報會議重點：交車創同期新高，Robotaxi、機器人與 AI 晶片是未來主軸",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE8ySGhDNVFrWlBBZEhfQ251MnZjR3hOWnd6Tm9jcmZSSzdrS1E1MmJKQjJKVlBCLUZKcE0tY0lLZk5JZEVRYVhVdWR2S3o?oc=5",
+      "source": "蘋果仁",
+      "topic": "台灣市場",
+      "date": "2026-07-24T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "谷歌、特斯拉財報亮眼卻暴跌7%與14%！台股跌千點破均線糾結，下周上半是反攻機會",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5jN2hESjFJbmlNV05wUTN1aUhlbHNpazh0YUpEZS00S2p4VVl2S3pqcDdGeUQ0ekZDbFk1bjdpak5UREFudzI4REVxOHRsYmFLT0xNcFhzNjU?oc=5",
+      "source": "玩股網",
+      "topic": "台灣市場",
+      "date": "2026-07-24T07:00:00.000Z",
+      "group": "other",
+      "score": -1
+    },
+    {
+      "title": "追加 53 匹額外馬力！特斯拉 Model 3、Y 全驅車型將換上動力輸出更強的 TL2 前馬達",
+      "link": "https://news.google.com/rss/articles/CBMi2ANBVV95cUxQUUxvTEl1ZVQySTU1aXcxOWZfZnZqcWNGZk5nQmYxbGNmd1hlZFlrNnczNVBhRXJneXNjWS03cUNEdklHMUU4cGNrRnR4WXV6QnJOb3FEU21yQW4wT1ZmV24zX0N1WDRUaGlhR0t3a1VJaGk4cVpadWZuZzcyLUJTOEVrRXlpeFI2ZHN5V1RZaEdTNURGYUFoWERmd1JNSFZvaWJhcS1ZSElXY1BBMm5SUzhCMF9XNnU3SXk3QzdjVzJkeGpIRmphdWZYaVRPc0ozZDZhUEhwUDJUTG9rZjF5NDFzdE1YeEhGbER4V2lkUDhQMG9rMVJfVjBGWE85MlZBOEhLaS16WG5DZDdZUXFrN1lCTUJNTEIyYzNiNWZqbUNJbnh0cTdORDAtcUJTX21oLTI1Umo4SnZnYThIXy1mUlZtb3R6cmNfSEVBN2xyQlhsOWFuanI2Vy11VkdKb0UxcEhrMjViVUFYV2FTN0l6WkF6OW9WSlUxY3o1eEhkekxpTDhySkZ5NmlRRHlISTA1dU4wcjJCYy1Ja1puRzgzdHQtUUJaUEJ1dDFVUkdLMGJMdXBDd1pSS1dkYnBLME9PTDhJNVdZbWZfRjlYQnFOZDdRdk41X25l?oc=5",
+      "source": "DDCAR 電動車",
+      "topic": "Model Y",
+      "date": "2026-07-24T02:33:33.000Z",
+      "group": "highlight",
+      "score": 1
+    },
+    {
+      "title": "特斯拉推「兒童限定車」搶翻！黃牛價狂飆221倍",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5Bam0wQ1MweXR6OXlHN0ZWYzMxWEdDaS05WkZGcWlfaVlyOTBISy1rVnM1RU5JWGI0RHQ1eGdLN1hfUVZUc3cyU3huVXJXSlZRR3pGLUhJaDZMN0hpb1ZWWg?oc=5",
+      "source": "民視新聞網",
+      "topic": "Model 3",
+      "date": "2026-07-23T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "特斯拉Q2財報亮眼！四大戰略佈局全開，台廠供應鏈「這些概念股」引爆新浪潮",
+      "link": "https://news.google.com/rss/articles/CBMi6wNBVV95cUxOZU9wOUc4NGlCSkstTm8zOGhLb042UnZmUEZnY09nZEgzcGNOWFJjQ0hYVkh5cVZOWjd6aUV6TWxpbHFVeFBsWEZDS0cyNlRzbGxnVDlmemZxcHF4enNEcmR2RmxZS2JaMEx5RUp1UnZfWEhRYi1rS3VpQjQ1ZGU0VXJvQl9sTnlqUGhraldiSS1PcjZNaWo5dnkyWE8tcDN3cDcwbXB3SnZWQUhtYjQyWDZBdG1XX20teHNRVnNGV3FDeWs3Mkljd3NLQXBHdnJDTnhWcDUxS2Zla2ZmWnhOZExHbXN0cnNPMWRRcmtEQk1JQTNjTDRFXzZRUHpBczhHN2s3cXRZd0FVbUNoUWx2OEF2Xzd5eVFOckJQRFZ1UUktSFhWOS16WTF0VGI1VWNPSlJKOTVIeEd6Z1Zha1hPWm9qSTRWWVB5TFpPR0FZdnNUS1Z6TlZHYUM3dXZfckhyVFJqVTJVQVRKaXRCRC1ZYmN1cVhmZlJ4emxLSXdLcExmb3pneUdreWhyN0I4clRuNFJ3N1JTRko3aVExNHEwM0pYOURxT3FTMkFjSTlneGViX0xQcmtNeTBkQ3AyZ2dlcEtnejJfcGtkSl9rRTNkbEhwVmdyQlhSaS1FZnNjU0J2M2EyVXlpLWtRWQ?oc=5",
+      "source": "台灣好新聞",
+      "topic": "台灣市場",
+      "date": "2026-07-23T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "Tesla推$225兒童平衡車秒殺 無摩打無自動駕駛 黃牛竟叫價40萬",
+      "link": "https://news.google.com/rss/articles/CBMijwNBVV95cUxPYUY4YUlILUxfUkZ2bmxpV0w4dVVMb0lMSEI0NkZucHRxWGFDVU5abXJxOVFldENFNzJyWWYwRmJfMzZKbkNmT0RCLUQ5dERUWk9fZXBNUVBjN3BFSHdiRkZkeHQ4Y2ZQaklsWC1FZURtZ21fbFhRcXY3VzNCSlpLZlY0cUVGbmtlNVZ5TWQ0a2FEOV9NRWVlS0xtTTA0OUVPMm40VU5FcU5VOW5WcTJSU29ENG9XM0loQkxqNjVBOWg2TDZjLVNGT1pMWVFqZ3dmNDhkT1ZDYms5Z3N6Q0lkMVNUYWp3TUJlbEdfVWZGMklsRlg3dnZmMzdseE8tT3N1R1BlZjI0ZERpQjhCeGFfeDFDM2xoVm54TVJNa2pieGx1eWxGWkVjUFg2Tko4S09EZHRicHFjWTAwVzFWMkgtYUo1elNzN1VwVTJNeGZLaHRoV0NmOGZKX2R1eXVrVDZVY01aVVAtYTZFb3Zpa1BZbXNRaHh6VkRuazY2ODkxelB5NFlsWWkyZ0diV0c0NWs?oc=5",
+      "source": "hk01.com",
+      "topic": "品牌動態",
+      "date": "2026-07-23T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "加州買電動車即減3500美元 Tesla在內的13大車廠響應",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdnZoZmpfTmdWY1M1b0xDdmpLMGVGS2cxZ3RFR3NOdGFSTlpvZEh1TkQxOWRCRWxOMjNwTVNfVzVRQVJ2V2M4Q0txaC1Wa3JvajBpOXpmWFZCaUdpX2hkdWwwQS13RldveWJKRjhVbG1hUERLbS1WWDBkSmZ1amt2UkQtaVpFblZvempDTTBjMks2N0hnYUFEODRUTVFpOHZvTzVr?oc=5",
+      "source": "singtaousa.com",
+      "topic": "品牌動態",
+      "date": "2026-07-23T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "特斯拉兒童車有多貴？黃牛價狂飆220倍　能直接買一輛Model3",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFA3SzYzWXZKSW1OTlJEM0JYSml2bkNmdDUxVy1HSEk1Wmk2aUlMdHV4RWpLMUd5U3FZWTZHOThRX2ZTRlhZa2pRMFdfS2LSAVJBVV95cUxQS0h6dFB6aGJPWHFTczgyb21zTW4yTkJ1VFhiVWhNN09weUpMUHJlTW13dS1qQlpLSFExR2hIV3JQM0cxdFZBOVRwVzFEaS1CcWx3?oc=5",
+      "source": "NOWnews今日新聞",
+      "topic": "品牌動態",
+      "date": "2026-07-23T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "營收創高、獲利倒退，Tesla 正用汽車業務的獲利養 AI 與機器人的未來",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcEtrLXp1dnQyekVqMlR3S1RMdENxR1NrUmlxbHoySnRzdkJZOGtQelo1N0R4WXVNeVNLYTNfYjFzdmJaZHBLYWFKVDRJa2tMYVdiTkU4VnB4NGc0YjUtMDRMaEhlVTRTSWUwTTl3OEZoeTlGMGM5TmRoc0JpQVZJekRVZDE1MVFWY2lqY3NTOWpob25SU3E2M0xZWXNzcHBNRzFXcjlDODRxR0lrYUxkNzc3Yi15NXk4?oc=5",
+      "source": "inside.com.tw",
+      "topic": "品牌動態",
+      "date": "2026-07-23T06:16:46.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "特斯拉 Q2 財報重點整理！年營收突破千億美元、台灣交車創新高",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9acmdncEtudVpvOHlHOHBrZkVMZ1Q1QU9SRmNNVFQ5VTFiWmxWYlJleFYtOXN2WUZTYnNkZlE0dDNRanI3X1JIM0xLTF91LVJzMzRz?oc=5",
+      "source": "electrify.tw",
+      "topic": "Model Y",
+      "date": "2026-07-23T05:28:58.000Z",
+      "group": "highlight",
+      "score": 2
+    },
+    {
+      "title": "特斯拉第二季獲利不如預期 盤後股價下跌2.4% | 民視新聞網",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5HRUFWX3R6aVlKYWRvQmZNNTdDLWNSR3NfSEtlby1nODN4dWFLTXRsNmZIeWw0TzNGNkJBY3M0U1VGX3JMdmNCcWJpTHhCUGxSNV9OdEhR?oc=5",
+      "source": "LINE TODAY",
+      "topic": "品牌動態",
+      "date": "2026-07-22T21:30:26.000Z",
+      "group": "other",
+      "score": -1
+    },
+    {
+      "title": "電動車10萬公里實際檢測，Kia領先Tesla贏得電池壽命王",
+      "link": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxNX1E2QTIxd3c4U1NHZkhoYXhEdUtBRXJuNTdQdWs1WU93X3c4NE9ncUt5MHVpenRseXBWMGdXejg0cG45OFoyUjd0a1NMSjhHVDF3YkF2MkFQZjNCbmhJNEVLa1FteDNWZDZ5VkNpVTZGVUw0UXU0QkZ3bkVXMmJvcWZsdDc3ckVMc3lsR0FWRkttU0plbERsbDBaQzVxcklLMmxKc1MwR3RXZS1mTkFhT1BNTW41eTlaRzJPcUhTNkZHU01qZ3pERU96eGpLMFdqWjFxNzZLY1NVbU93em9xeHpnNGp4U1JwV0kwMHlieUNGS2ZPYjFaQlNhMGdVeHl1Z19qQ2tWMTlJYW1DNHJjLTU0UWVhVnZUVkczZXNxbUV5YVRsS0ZWRnBHRjhzZUxvV014MUJQY1ZuVnFtcUtieUl6aWZGYzFhTVpialdZeFctazJ1MVpodmxZQQ?oc=5",
+      "source": "CARTURE 車勢文化",
+      "topic": "Model 3",
+      "date": "2026-07-22T16:05:25.000Z",
+      "group": "highlight",
+      "score": 1
+    },
+    {
+      "title": "特斯拉能開15年？官方揭1數據：32萬公里電池健康度仍8成",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1nRlBQV094dmlkOGRiV2ljU19IdVdXTGdHcWNpRVk2SmRBRWxTWURLUDFyUjB2QWVtWGlpc0Q0WVRHWWt4dDkyT1lHVTRXQQ?oc=5",
+      "source": "TVBS新聞網",
+      "topic": "Model Y",
+      "date": "2026-07-22T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "衝刺AI與無人計程車！特斯拉兩年來首度出現現金流赤字 | 民視新聞網",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9yODF3NzYxWTRuSmtfaS1NMnQyZEl3OEloQ3FSWkY3OUhuTjBMa2I4Q2lOci00WHdLNHlCTWJNdEtlNDg1eFI0Zk82TlJhU3NEVHlyOXJ3?oc=5",
+      "source": "LINE TODAY",
+      "topic": "Model Y",
+      "date": "2026-07-22T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "近2年最佳交車成績！特斯拉能趁勢而起？",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5qZ3FYZ3ZzTTdpcGp5ckY3VWY0SFcybE1oVThmWkZBQmFLWXgwRDBNcnJiOHNCOVVrQTZQTFJVSHR6WnJTVEtuT2wycw?oc=5",
+      "source": "三立新聞",
+      "topic": "品牌動態",
+      "date": "2026-07-22T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "特斯拉一台可以開多久？官方公布最新數據！開32 萬公里驚人健康度曝光",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1iMDFqanAtNUJSODdDb2wzOVozX2djRlZ0WU9JYkVnYkFKREJkOEIzZ0xnbFUyVjJ5Njd0TWNTelFiU2EwZzlqbTVzTENnLTJT?oc=5",
+      "source": "風傳媒",
+      "topic": "品牌動態",
+      "date": "2026-07-22T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "【台灣開放更新】終於能用 Grok 聲控車輛功能了！特斯拉釋出 2026 夏季軟體更新包",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9Va1hxaE1sVnFPUXhkS3RobnNhNWRxdHpldXNGaHcyQzhZdkRCQXRMcGFNNkVMRFg2VWZtLUFvNy1zdEloYThqZHRPU2IxV2s?oc=5",
+      "source": "DDCAR 電動車",
+      "topic": "品牌動態",
+      "date": "2026-07-22T05:18:55.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "六人座長軸版 Tesla Model Y L 正式於美國上市！",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBiVXZhYXFnQTRPWkNkaF9Sbk5YSEdIcDl0bkN3akk4VzRtaWVqX1p4VWpqTi1STHJWNDd0RnczMUlWSlpCVXMzSG9TVWtzUkpTTUstdjU2blY4RUly0gFiQVVfeXFMUHJJX3Q0MEoycS0tWm96NjlCZWllRUk3S0FYeU05aFF5aWNpdVA2bXR1LWUwV0tRZmJKYlJEWDZic01Hdk1JVG5WV0RoaFN4V2tTZ01FTWlBcXNIcVFyZmg4R2c?oc=5",
+      "source": "UDN",
+      "topic": "Model Y",
+      "date": "2026-07-21T07:00:00.000Z",
+      "group": "highlight",
+      "score": 1
+    },
+    {
+      "title": "特斯拉兒童車掀搶購潮！原價7千「黃牛炒到150萬」　背後原因曝光 | 國際 | CTWANT",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9DZE1FX3hla1g3X2trYk40RTBWSjVqam9CT2Z2YnJpWi03UVlMOWZsSWt5NnVqTVZVc0EyM2Njd1NoWXItbTY1em1nMld1MW_SAVRBVV95cUxQXzFETC16ZU04SDJMYk9KVXRYV0JCQ3U1T3A2a2JKbjVmakYtMVh1TFg2WmRkRE1nWkFsZzBWZnBrV1QtWEtRT2UwcllLVVJ4OFY2Z1Q?oc=5",
+      "source": "CTWANT",
+      "topic": "Model Y",
+      "date": "2026-07-21T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "特斯拉夏季軟體更新公布！Grok 可打電話放音樂、導航變得更聰明 | electrify.tw",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE15Ty1JV0RzVXJuMU1ZeERxZzcxcjQwUWJDZGJKTDBIeGFmX2RVWlJGM25FNlhvdmFuYjZrYnM5NGcxcmFNai1zRlVaanFwRlpVWkgzVVZR?oc=5",
+      "source": "LINE TODAY",
+      "topic": "Model Y",
+      "date": "2026-07-21T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "共用電動車平台 Tesla奠定人形機器人規模量產優勢",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTVhYbTNLSjVrUTMwQk04YmVHeWxEWTFXVUdjdFVTZ085RDRpV3B3VXdaYlBwOVlGT2xqYlU0ZWd4TE9Nam5Jcl9SS0FLUmtiYVFSc1dJdVc1aDhfX01xMTFXeFg0MThKMWtIMkN4Y3RmODJfMkYxVkExdkZ3UllmTk5ENVIxSnFzMUhDQTVn?oc=5",
+      "source": "DIGITIMES",
+      "topic": "品牌動態",
+      "date": "2026-07-21T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "Tesla終於推出「腳踏車」，卻讓車迷跌破眼鏡！",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBqa3VvYUFxaGp4d1NxVVJsZWgzSnQ5MlBvdGpQalBsb0h0TXJqTGxJekdHY2lPQXFmVHE0RGtJZjdDR2R3Nk5JTE5DZG8?oc=5",
+      "source": "地球黃金線",
+      "topic": "品牌動態",
+      "date": "2026-07-21T07:00:00.000Z",
+      "group": "highlight",
+      "score": 1
+    },
+    {
+      "title": "特斯拉兒童滑步車被瘋搶！轉手價喊到160萬「比新車還貴」原因曝光",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9GRXd6aGRGSUJ6SmlkZ1BIOHc2UmU5ODBzczEyVENLOV9MWnA3MEZoRnprZXYwVlIzckxLbzdNbGpqZmFFU0JtSWhBVi1yQUNaQ0kwaHhZb01YM0llRkZN0gFkQVVfeXFMTjJkYXQwUW9ROF9sWGotZ3NuS3JyRnpaSHZxV0c4dTVzYUpGWVZZbFY1ZDNaY2tsLUp2ekl0UEJjNXd5ZjFaOEg0aERNWXFUS2lIZS04V253c3FZNy1xcVdiY2dOSA?oc=5",
+      "source": "ec.ltn.com.tw",
+      "topic": "品牌動態",
+      "date": "2026-07-21T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "終於能用 Grok 聲控車輛功能了！特斯拉即將釋出 2026 夏季軟體更新",
+      "link": "https://news.google.com/rss/articles/CBMilwNBVV95cUxNR0VsZWU5VnBoUHNiTEVUa3hkMW5vQWdobnVWbXR4VW8zRFF4UUNtUE5fNVJhTlU2aGgzY2pfWGg3SmFZb0NCVGJGVzZPclVWdERkSTZzVkdoU3l2NWZEaktodl9KMmxpaC12UnpqNnZjSWZyWUJWR0JUa0U4M09GTTZqTnowbUZVS2M0Qk5FREVVTHZ0enR2UGs5Zi1mV3owakdTdFpHVm1mQ0I2a3lJeVN5V1VOR1VPVUVRQzNuZjhiM293dXZCYzdYVjFQQW5Majl0amlYeVlYc0dsMjAtandVRi1uSFBJTzBmLXE4ZTVGOVNCN3QwUG4yaTRiZ1ZtMmxnZXdyUmxZTWRTeFMzQmNhYXJBRmNBN2V3OHdFbURBbHRWMHRMcFNiWm1CLUdYZ19wVm5HTVpKY1BtRk5VaTB0NTd3SmZ1QkpHZEJqY1c4dV85T0o4Vmw4NlVrU01XMXRIQndyTTB3Y3FsUDBrOVR3LWtGVDNjaEp5M1JNWEtQWjZTbW1YazM1Wnh5UnZvaGZqWGNJQQ?oc=5",
+      "source": "Yahoo - 汽機車",
+      "topic": "品牌動態",
+      "date": "2026-07-21T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "國家認證？特斯拉大燈太亮，美要求召回近2萬輛Model 3、Model Y",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9VUDBUcTkya2o1LXNIaExBZHllRi1iZ1ljaDNVYXdWeDl1RDlLX3hqWm5IdjZ4ZEQ5eEY4c2ZzRVdqUjgtVklpWGxoTkJzM05Senc?oc=5",
+      "source": "地球黃金線",
+      "topic": "Model 3",
+      "date": "2026-07-20T07:50:55.000Z",
+      "group": "other",
+      "score": -1
+    },
+    {
+      "title": "獨家影音／快充竟成隱患？特斯拉電池故障頻傳 過保換新要價60萬",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9ueXRkM1hGbGdaWDJFRnpLT2NwRG5kdkVyNGJ6ZFdhSEdyNVFUMUJ4cW43X1hOZWZQWjNtdFNCcHM4NkxnWnZBeDlXWkxiZw?oc=5",
+      "source": "TVBS新聞網",
+      "topic": "Model Y",
+      "date": "2026-07-20T07:00:00.000Z",
+      "group": "other",
+      "score": -1
+    },
+    {
+      "title": "美國NHTSA駁回特斯拉請願，因頭燈過亮下令召回近2萬輛電動車",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOMVJZdzQySkV5SWV4LWJsbm01bmpGU2s4aXdxQWxwd3hMMDZVTVNyM3RWaFlQT2R2d3Rja0liYWgybUoxSEgzeGxhaVB5X2xUeTRJYVZPR0J1WXFfQndsdUFrdmtfNmE4YUdWb3RkakhRLTdfTTlDWXBqY3ZmSFVWbTFzVTdSYXd3REpEaWxNd0twR1NwWkZkTFBvQXdrQjBUQjVCc0hqeWpQakdhVVZkMHg2Tkd5ZHREMkhubHZB?oc=5",
+      "source": "singtaousa.com",
+      "topic": "Model Y",
+      "date": "2026-07-20T07:00:00.000Z",
+      "group": "other",
+      "score": -1
+    },
+    {
+      "title": "國產電動車稱霸香港 比亞迪僅次Tesla排第二 東風廣汽飆逾7倍",
+      "link": "https://news.google.com/rss/articles/CBMioANBVV95cUxQNV9aVjd3X01DcE1aLVliRDhReWhuWjluVWg3VEVWd1pPaVRRQnRtQWFUTEhEOFVTcVplY2JNTkY4MmQ4UXVKNzRBMWZUZXdyU3dFbzRhR0lubk5lUGVxTHBqZmpoTS1ZU09IUHVoZmNEdndWUGlicl9xWkg3TThlYkFVRnVodjRrMkQ5M1RHNWlYZzNESjlYWEJMajlPdzI3ZDdnMUZCQ244cHY5UFN4Ny1RNW5PUmZYd3BFR3lWN2Q2cHZpMzlNSEQyU0F3WTVLQTI5a3RUeGp5SkZXV1VyazBUcS11TjFXVHRfQmExWjhnWVRscHVxVmQxY2NrNXJXVnN2dEEzeWsyY2VvdFJTNlRyM0dUV2V6ZGo5YUI1SWlYNHVQLVNadE9oVFRGVld4MThJaHdUblpCQjNVT29uUUh0aFNTNklPOTRuTXFiVm9UU2xlekdsb0RxY0RWZjB2VmdVbjgzYzFxYzRlWmhpdGRQRmpsal82elRuQUJkWm92RjlkUjlYeDlFRDh1NzZJQk5qcGRDMy1Qb05UdDRwOA?oc=5",
+      "source": "hk01.com",
+      "topic": "品牌動態",
+      "date": "2026-07-20T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "駕駛風格會更個人化，還將整合 Grok AI！馬斯克劇透特斯拉 FSD 未來進化方向",
+      "link": "https://news.google.com/rss/articles/CBMiyANBVV95cUxNYmVZYUc5T0ZZVHhCaTlCZFZsX1Y2eElMNmRubTRpTGhnZ2p5em9BaEFxdjVicmMwQkJHamVCN0ZUbExGSHVNNzNmWHFPVzQ4elRmejh4b3VPRldWVmJTdENyWGhabFFZNmVtNFJHRXJxaDJjMUVLSXk1bFdpaGxDMDczeTRFNzFjSFphcVZGZkxBMUt5QjJCdzZRNDRYVE9VYmFSQVFsdVU5dUtBeW1NTjhodHlHYTd0ck5OaVF5TlVZbEFpLU12QTVOdlZGTHJIcjZYYlFZVE1wSVVTazNaakFWVEp1TlRHWk9jVEdCLW9OdTc0ejdnN1VCRkF2SmZYcDNsR2Z3c3JvY0F4a29DR3djTENfNHVmcXJRYnNBd19qYzJIWi1GVkhNUm1UekMtRVRBd2hJMXA2RFlwNnVob1ZFSGFKbG5veGo3UjExN1Z4eE1OVUFPdlhlZnZvc3FQVUM1NGVUV21hd2F0TUlyZXpTdG9Zek5PNVRyd0xDdWJfRWVKaUhxVWJtekxKLURoQUVPUVJQcThMUWp5THBmQ0xoZDg5Y1lmWi1tRDRKdkhhandSZVFsX1J2YWJkcFNhbnVtSVgxUDQ?oc=5",
+      "source": "Yahoo - 汽機車",
+      "topic": "台灣市場",
+      "date": "2026-07-19T07:00:00.000Z",
+      "group": "highlight",
+      "score": 1
+    },
+    {
+      "title": "一場寧靜的板塊位移：特斯拉首次超車賓士，達爾文式淘汰正在上演！",
+      "link": "https://news.google.com/rss/articles/CBMizwNBVV95cUxOcW54Wk1lbjRqb243VE5qNnllVXFCTm5FT3R5bjVnamNSYkhvUEg2N0VZWHgwV3ppeUd4OE5QSHhpUFlUdmxIcGFhY2dndFBkWVBzY3l1UWk3WXJMOXN0ck4wS0xFWTF5UU0yeGZublk3cnZ5VE01RzNBdkY3LTBrTFhTNlJncTZQeVpJVEsxSnVYTURvYkVPTGRJdUNoemo4NTFEZnZoek9JeEZidVd0TWxjcWhXQ0FlelM3c0Z1S1hZZU9JQm1TdUdhaWF6SHN0MVpHNnJCbTllUGJ3WldaNHM0eWlvS2xnRUdSTlpBNUZWZ1A1WkxRS3VXbV9rSHFRQkI2T2FhMFFOTmJlWnNXRkd6elZyN3RMSi1nLVA1R3E5clRKekVOeVh2MUd6RHZkd04tU0N5dWU2R0FXbDZvekxLY1Rjb1NxcEROa1BvV0dfY19ucm1xQTlXMlRkczhTNXJqcExfX1ZZVHdFVVB5emtVQUtud2duRkwyREtqQUg4VmxwU2dEZ3NWMDY0TEIwOVd1WEd1bEpRNHNGSzFJcTc0c010dkJLUGFnR2hYWDhLbHRHdm1DRDFQUWFsbFZxeDdZN0d0M0RIV1gtNmRF?oc=5",
+      "source": "Yahoo - 汽機車",
+      "topic": "品牌動態",
+      "date": "2026-07-19T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "硬闖？特斯拉遭攔腰撞 路口失控「轉一大圈」",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SblhocGVBcGpEQ25Gb2lHUWhqV0Fzb2taajdjb2FranBZTmMxc0xVSFNUNlFlMlNYMXJfN2FRVFA3UkdnRmdhaFdOYnpfSGhhQXBDNEh3?oc=5",
+      "source": "news.ebc.net.tw",
+      "topic": "Model Y",
+      "date": "2026-07-18T07:00:00.000Z",
+      "group": "other",
+      "score": -2
+    },
+    {
+      "title": "Tesla特斯拉兒童平衡車（滑步車）無預警上架！國外媒體與家長評測真心話，售價規格、國外評價、台灣購買方式一次看",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9hY0RKTEhZMjVfazgzTG15OEJvQ1FieWhYWEEwM3E0SWNQUUI4d0FVSWZ0YlowZVdLYTkyWDRiMTB6akpIZXlUdE14OUFOeXNFOHBKdG9n?oc=5",
+      "source": "Mombaby 媽媽寶寶懷孕生活網",
+      "topic": "台灣市場",
+      "date": "2026-07-18T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "充電樁價格戰！特斯拉降價 EVOASIS跟進狂殺「每度5.25元」",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE93bktZUzJJYW9SSTFneGtUYmpqZkVIM3NZWGdWTXJsNFdMal9CaW1HZGdBQnNBdFdLOUJNMFNfU2lOUlB5bkQtYlljQ2ZkUQ?oc=5",
+      "source": "TVBS新聞網",
+      "topic": "台灣市場",
+      "date": "2026-07-18T07:00:00.000Z",
+      "group": "highlight",
+      "score": 1
+    },
+    {
+      "title": "上架秒殺！特斯拉推出「兒童學步車」 網諷：竟然比二代跑車早出| 全球財經| 全球",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9EX0g5WWl2S0Y0UWEwQUhfTFRDeUJ2bDU4c3JmVXdINkxSTUtFc0RRd21rN21aa0pqQnNodXlvREh4NGdCaC1XQVlYU2tKY2s5?oc=5",
+      "source": "udn.com",
+      "topic": "品牌動態",
+      "date": "2026-07-18T07:00:00.000Z",
+      "group": "highlight",
+      "score": 1
+    },
+    {
+      "title": "歐洲測試增加台灣特斯拉導入機會！Tesla Model Y L走出中國接棒Model X？",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5PTGtoeHlyc1JZZlJPTmVvRGJSLWZhUWczNktLRlk4UUVOcXVQSUY3a01oVXRQcElSeUY3T3Y1dDlUbXg0VnlnX1hQRTV5R3FVZGc?oc=5",
+      "source": "地球黃金線",
+      "topic": "Model Y",
+      "date": "2026-07-17T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "特斯拉想免除大燈召回遭美政府駁回 影響近2萬輛車",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1KZjRjZ2lxUzFXNjI4N0xoSFpnbHJjakZ3enYtVklJTUhzUW9TcWhFcjI1ODFJZ3laOFI3QlhScF9TdEtiSS0xRmJlX0NNR1NfcXJ3WjdUb0dmUll6X3RGWGdBdw?oc=5",
+      "source": "民視運動網",
+      "topic": "Model Y",
+      "date": "2026-07-17T07:00:00.000Z",
+      "group": "other",
+      "score": -1
+    },
+    {
+      "title": "特斯拉FSD將登台？老手嘆法規綁手腳 恐讓爽感大打折",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBoenFTb19YWnNkaUZ3TkNiTVpPQXpKVjBZcmc5X3g5T0VQbXBHNWNsLWNSY2RVaWtvWWNpTmlFMXFXdkJJQU9YNC1Xd3hOdWJBRUdTcl9Ra3Rlc1NLc1FkeHNkelhmSkZKU1R3eGhn?oc=5",
+      "source": "中時新聞網",
+      "topic": "台灣市場",
+      "date": "2026-07-17T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "Tesla憑藉共用電動車技術平台與自研關鍵技術 建立人形機器人競爭優勢 擴大產能邁向規模量產",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0yUHFnVHpMRU0yakdjOWZBRXlneE9UYWQ1VkdkM0FqeW5sMlVIcDBsTlBnc3kwdzJtT1h1T3oxSEcwMnppSXE2bHF5d0V0YmJNYzJTV0tVZnlEbFJOZDdHcXA5YlozaTNtSG9Bck1Hdk1HMW9zVTgtYnBoeTM?oc=5",
+      "source": "DIGITIMES",
+      "topic": "品牌動態",
+      "date": "2026-07-17T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "孩子也能開特斯拉？225美元平衡車8月交車",
+      "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNdmU5bkQ5ekRiRGE5YjU2N0h0UjIxRWtMY3Y0c3REX3gyY2Z3U1ZqajhzUUlyUE1hZU5qVFd6bFBxaXcyU2lDbzhYNjZCangyNUowSHRlZXE3dDBHbnM1TWI1WkJBSFhMTWtoVTBOUW5pNlJRZ1IxalNHOU9iR2tWSVFyMU03bUM1Si16V1J6b1ozbXlNVkFySEF0UDhxdDkwd3RRdmFLdWdOcEJmd1k0eC1GNi1mZzFVdE9LVGNCTUlyNnotTUhzTnJQUW4zbmc4SXJmdTZfV0pjM3ZvRXltc080UDl5ZlZnaVJwSGZqZ25MVDRtVVUwNWhzRFdzbWYtZVNIX0p0UUx0Qjg5eXZKcHV0MzB6VGM0bkE?oc=5",
+      "source": "Yahoo新聞",
+      "topic": "品牌動態",
+      "date": "2026-07-17T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "特斯拉掀充電價格戰 EVOASIS推訂閱制假日最低5.25元會員優惠",
+      "link": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxOdWZQWTllTDJrek5SQm9XY21mUFRfc3BDWGlObmU4M0poMUdTNGl2VkNnbXpJaDFiVE5OcUVPS25jUjBxeHh4Y1d2OFlBLXRuUlZMQjktRTd2RjctRGhRT3JBbnNGSGxYVEYtOHFuVjJIb3Bqd1E3R3pOY1AtdXg1RVM2ZnNVUUY0aEJFT013M3FaSTBFWWxHRzBsMFN1Zm40NzR4c1hTc3pMTFdyaGVucDdLT2hkbEUzNDhTVkNkdkxpV1dBb2xwY3JuaEhnWWw3UVZiampFZUpBZ3dldkkwSkpkNHRhTXFDZzIta2hvVnFrY2xYV3ZOQUF2eTFXSFlnWXVkZVhCd1VQWjVvVTlMNlVzMU93LVhlcUNMOFJ0YlptZWFCS0w3RVowV2k1WHctNGVsRVlKNFVMUVFDNy1hVFh2NHNNVnYwdjNFNzYwRHpIMlFYVkJsRmEzT3p2dFBLM18yVGFULXJSSXp6bmczd3hn?oc=5",
+      "source": "Yahoo - 汽機車",
+      "topic": "台灣市場",
+      "date": "2026-07-16T07:00:00.000Z",
+      "group": "highlight",
+      "score": 1
+    },
+    {
+      "title": "美國電動車銷量連 3 季萎縮、特斯拉下滑 13%",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRGVFMnBWeXAtaFdqZ3o2Ry1YcXpvSEVzQk1xWWMxMENnSHFTZExVYlA3QmdUa2V0c3B2MzczNEhNNXBlUUd2TTYtbjNILWVodEZnVTAyMlJkZktrOGFlQzN3ZGR6WTQ0VE1yTnczWUl6Zy1rdWRUTklIVTRGM2pwNzRpQjAwNEVhTmRrRXF4Z01kOXRkcmFfRVYwQ1FFeUFTZ2c?oc=5",
+      "source": "TechNews 科技新報",
+      "topic": "品牌動態",
+      "date": "2026-07-16T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "一台特斯拉能開多久？原廠宣稱一年跑2萬公里，可以跑超過15年！",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE90a3M2R0VHSkdWc0NFTHRWOHREVDBYUS1Td2NwaDdVQ2VFaEJrYWtUT1pzWVlPbUZjOUJsd1hRZWZvanhIZGlBdVJrelRUczlMQ3c?oc=5",
+      "source": "地球黃金線",
+      "topic": "Model Y",
+      "date": "2026-07-16T05:44:57.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "台灣自動駕駛何時開放？特斯拉FSD審查估計最快年底才有結果",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZ1BQbW5JVGstSjZtYmlrR0Z1Z2VKNldmTklHempyYjlQRFozMUN6TG1Ddllob211cmRNNTA0cFNEcGZaZDBpT2dBZ2FWbU9DYjNNOGU1Z3pYNHlfM3hJc01LVmlPUS1ueG5jQzQzTjJnU3g3MXdEU3JPX3ByUUVPSzBfMTRlYTA?oc=5",
+      "source": "blocktempo.com",
+      "topic": "台灣市場",
+      "date": "2026-07-15T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "Elon Musk 要在德州牧場打造產品畫廊！畢生大作橫跨特斯拉、SpaceX 與 xAI | electrify.tw",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1MLU0yUWdHLW1Tak1peHJrcDNJWjQ4cU1acGp1Wnh2aGFXMEpSRXBXcXVCalI2LWp4ZDJYcU9OTks4Wno5bEQ4MGhxQ2J4bUp5d0R4QndR?oc=5",
+      "source": "LINE TODAY",
+      "topic": "台灣市場",
+      "date": "2026-07-15T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "買豪華純電怎麼選？7月純電零頭款：EX30、Model Y、CLA優惠比較",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9rUld0VUNQcmh2Ukc0QVRtcHpaNzAySDRtZy1OY1AxQUhrNkNEbmVPMzctYk9ZSVdUR1NpZlBjQmFsSHA5TTRsNEtpVlNnSlljR0tQWTlzVlhnZw?oc=5",
+      "source": "8891新車",
+      "topic": "品牌動態",
+      "date": "2026-07-15T07:00:00.000Z",
+      "group": "highlight",
+      "score": 1
+    },
+    {
+      "title": "Model Y電池瘟疫延燒！採用比亞迪電池頻釀禍 特斯拉：7月底前提調查結果",
+      "link": "https://news.google.com/rss/articles/CBMipgNBVV95cUxPVWEzOGtZWHJTNHdUNmlQVk1DRzVHbkNpcHFTY3dKb1Y4dmNVcEV3QnJuSUhFUEFHSmdjckdKMlEwM2VZS1ZCLXI1RGJnbWppSV90VU8tc180aF9IQ2NlWkliOURiODg4TVp4S0dCeXpoNnVjaW9XVXQxRXJHM0RCSDI5RGNOQUd4eVNORWxFMEQ2S1Y4STdIclE1ZWczeF93VVBCVWVXWEttdThpREVKS204Nnlyc2VnUEphcl9HQ0gyYkhnVkIyc0tZQnZobW1ZZTdPN25QbjJyV2JDVXJNZkF5NlhOc0UtQVBySXF6S2hEdERsRnRMcEJ5UW1CX3h2N2dCbkdYS2JHeTB3Q2xDMjU2WHRqNEl1LUJuUlh5dks3dHhqUXZJY21vRzZNUWpxSV82YVRRb2tCQUpGSTNJa3dBckJyQXdCbml1YnNVNldOUnVCdUZDMzdmRG9kc0tUcWRGbC1CbHotNHVwUHR1T2piRlVvbjVsTER4aG42N0ZmTTFsS215bzJ6cnNwMkxWOFdDam9PUFdZZHhIcE9DTVFfSzhTUQ?oc=5",
+      "source": "Yahoo新聞",
+      "topic": "Model Y",
+      "date": "2026-07-14T07:00:00.000Z",
+      "group": "other",
+      "score": -1
+    },
+    {
+      "title": "玩命！加國特斯拉女時速100「低頭熟睡」 後座竟載2童",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1JWlpURmJQT1VYN3VJYzdnSHdZb2Vvd1V6bVY1LVpScUwzQy13dGY0RjRJYWR2TGNabnRCa1djTzRab1c5SnNLRFZTR2p4NEU?oc=5",
+      "source": "TVBS新聞網",
+      "topic": "Model Y",
+      "date": "2026-07-14T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "Tesla熱銷帶動 LGES中國南京廠圓柱電池產線擴產",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPaWd0YWtRWmhDUTF4WmQ4NkhUQ05Pemx0SUdtM192ODRSWkM2aGh3c3NTMGJISkh6bUFyOHRPbWdYN0p1ckVnWGxCWkFpQV9rMVQ2VjdaNUJRTElpNUpEUTNWSmpkNURwSFBRWTUycmZSUjJOMDZRYlNFN1JLa1ZlRC1wLW9pNmJGMzNVQVZn?oc=5",
+      "source": "DIGITIMES",
+      "topic": "品牌動態",
+      "date": "2026-07-14T07:00:00.000Z",
+      "group": "highlight",
+      "score": 1
+    },
+    {
+      "title": "特斯拉 Semi 電動卡車將量產交貨 致茂推驗證方案迎新浪潮",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5vazgtSU1NWXhTTHJIeTdhbkZlWVRDb3RjZ01MN3hRUzBYVWJ1dVZoZkFtRHQ4NnBDdlhGbEZGMDVfQnQtX2hva1BWNEZNd0F5NFEtall6NzU5VVXSAWBBVV95cUxPMWJFTDFqRmNSSTJhMG1nYmhpS1o4TWxLOU1HMEVWU0l4R3BkVHNXZ1RQQ0hkU0wtTFZrZnF2QUFURXBrNXgwcWN0VHBLcWZLczFiUzdNYjg5dXItMS1LNEM?oc=5",
+      "source": "經濟日報",
+      "topic": "品牌動態",
+      "date": "2026-07-14T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "【2026香港電動車充電收費】邊度叉最抵？港燈、中電、Tesla、Shell收費大比拼",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNamM5emVQdHFhbi1nZkdXLTdZNjl2aWh1XzRaak1YdnVERnUwUnRKaWNsM0JHT1N5b3BCUGhvd3luWkdqU2gweHRJZzJOWm5mV0ZadkJzQ3l5ZWE4UDlYZ05LZ0R0OFhmVE9zc0d5ZTZDQTk3Q2hXWlZNNS0wRTNQM015cFJGOTRCd3BHTDh6Q0R6UQ?oc=5",
+      "source": "Esquire Hong Kong",
+      "topic": "品牌動態",
+      "date": "2026-07-14T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "新車強制加回實體按鍵？中國新規下特斯拉全觸控設計首當其衝",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBsVHJ6SGpSclJmTlBqM042MGtzZWFrX1F4WXpNaDBDYVpEZ1JPWldvejJRNGVHZGxLbGltZUNCX1l1Z0pESW1QTldPQVFXTTBiMEk1T2V6LTRjbGhPYVY4R0FDamJ3MmVyQVltQ0lQVHM?oc=5",
+      "source": "electrify.tw",
+      "topic": "Model Y",
+      "date": "2026-07-13T14:11:04.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "「這年份」特斯拉Model Y電池頻出包！充完電出現故障碼令車主怒：不像個案",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE4yUldkTHJaamY1MXdmMTRMTWhOdzJyOUgtSE9vRXo0VF9NWDQ5Rk1jX29LU3VoS0xETS1FZW5OWlE3bHNhcUtpLU05Zlo?oc=5",
+      "source": "地球黃金線",
+      "topic": "Model Y",
+      "date": "2026-07-13T07:00:00.000Z",
+      "group": "other",
+      "score": -2
+    },
+    {
+      "title": "三寶無國界開特斯拉FSD自駕睡覺定速100公里！後座載2名孩童恐面臨刑事責任",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1rMi12WEpHUW9IbDFyV1AxbFVfV1N1NUV1MkE5TDI1cm5iUlFJd240RGw1RFB0SFVsbHU3RkMzX1FKeWtNLVRUa0NMNTQ?oc=5",
+      "source": "地球黃金線",
+      "topic": "Model Y",
+      "date": "2026-07-13T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "特斯拉 AI5 晶片再有新進展！三星完成設計定案，將與台積電共同生產 | electrify.tw",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1mQzA5bS1ocEkwc0hNbEhDWlhVQ2oxUUdEQkVKUjBjdVRQX2tqS0RuNjktVG1Zd2lrRU9iT3lXdzEwMmllUjcyODVPZGxsMzNRcmNwVzln?oc=5",
+      "source": "LINE TODAY",
+      "topic": "台灣市場",
+      "date": "2026-07-13T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "Tesla發布2025影響力報告 全球交付163.6萬輛 FSD減少重大碰撞",
+      "link": "https://news.google.com/rss/articles/CBMi8wJBVV95cUxPM0FETGxHbnRNd3paTll1S2FzNU5CcXVUak9qRzkxZWJnYTRORFVHcE03ME44enh3cXAtSUZ5djNKUGFkYzc2dmRyeEtMUWlhS1BXamJFeEd1UW9DU253eWZhMFl0N3BZS3F3UlRjTHlpOGtqWVBVM0ttYUVPMUdDcm1FTU1uZEZjUlJDSWRvaXRlLUl6aUJ6VDBvcko3UHRORDAxcUUzNXlJRTRqUzBUejdzMGs2NEZhWFI0Y2xXMXEzTHlXTVVUWjFJNjBuSmdLWUVpQVdoT1BaUHNSYVJYRVk3QUs1Y1Jvbkd5LU5JbDVGbHlwdjB5RTFlLWk4T3VROFEyZDh3ZHJIdm9yVGZnbWh6UlFxbWluZng4S3VKTmtCX09yazVWR1lvVnpKZXk4TlZYcTFFd21VU0V3ZnJvRHpGajJ4NEhtYlNQVnhvR2Nyd3FaRGdQZXJ0XzNhRS1TdTM0U29QNXhSSFRzYUs2Z2pHWQ?oc=5",
+      "source": "hk01.com",
+      "topic": "品牌動態",
+      "date": "2026-07-13T07:00:00.000Z",
+      "group": "other",
+      "score": -1
+    },
+    {
+      "title": "特斯拉 Model Y 搭中國比亞迪電池故障災情擴大！車主質疑非個案 原廠未公開回應",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5CQUpNRWw1UVJLSGVPMjlhd1pNcG9FVVlNUkc5M2ZlQWRjQ1JOdTVncnVoRVdwVHBqYTVWWXlHRC1jbnNmaGVndjZR0gFPQVVfeXFMUGtvSnNtZUt3N0NOT0IxUnAyYnhqampINXpsVTQ0dXluSWdMWFl3dXZiUkMtY0J0ZGxWZm1aMWFVS3JZci1Pc0RDZDY5V3V5Zw?oc=5",
+      "source": "自由電子報汽車頻道",
+      "topic": "Model Y",
+      "date": "2026-07-10T07:00:00.000Z",
+      "group": "other",
+      "score": -2
+    },
+    {
+      "title": "特斯拉 Model Y RWD 電池容易壞，問題出在比亞迪？",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1RcXVYYzU1Sk1GVWdSejcxN3JZTWgwSWtZVENzUVk2QjNwNHRjNkNWVGQwVGtPLWdyOEtvcHlHMnBYUUxmNTgxcGs3d3JHYW9NVjJ6eTRmdVo3SDZCZXlfUnVkQ3JkRDdsV1luZXhTVQ?oc=5",
+      "source": "TechNews 科技新報",
+      "topic": "Model Y",
+      "date": "2026-07-10T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "特斯拉訂單接不完！LG 新能源啟用南京新產線，圓柱型電池產能全速擴張",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNYm4tdkJxQS1CdXRkQWVWekd5ek9XTE9ZcG45aXNMQ1FaWTNMMjBOVHRhS2dwR0dhQ1ZjX081eXlXZ3dpOXZESFQwTjFhTDVoNGdVUjBUdHF4UFVoaVhxVEpkRVB4bUpYQnE3Zm1sT1pZbjYwZVY5U09VQm1ibzRmeHE5V0xiVTV2R0d3Q3pqV1gwR3RVN2RUMnBrWUkxXzM4RXc?oc=5",
+      "source": "TechNews 科技新報",
+      "topic": "品牌動態",
+      "date": "2026-07-10T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "現身德國測試中，特斯拉 Model Y L 長軸六座車型可能近期就會在歐洲開賣",
+      "link": "https://news.google.com/rss/articles/CBMiugNBVV95cUxPYmdUVVB3U0M4bUdrTWVzdklzajhZMXdOY3IybkZyWTVoTFpWMmhNRWVkQ1Q5OS1OSnVaVDd3ZGdXTzJreTVOcFpvLTVuOTZYM2pXTjRybFQ2bXY4WW9kd010eW5uOTM3cXZjQTgyWUR0WlZtMVBOQ0R4eDVGWFF4WThQR040OVlBakNaNW9JMjd6ejIxRVBIWWlHbFhRNEUxSGtaMndma0ZzZ3I5OWZLVmdwcWMzWlNXd1JoYlZhVjdPTTZpZi1KaVlNWkVyRldIUXhETXlUSWp0aUh3VWxMcjNDcE45M21nZkNjQ3F4bjBYZjRtOVRMbHNnbDFHdVQ0MUloeWhXT3NlenlCOHVVZk16WU9HQkVtb0w5eVVNRU1hM3pLTjV1SENWaTZaYnRsVFc3bDIwc01oRkoxemsyeWpneFB6OFFpZGxpenozUG8yM2NsMThDQWlGaWFBU0xfNXY3T1BnM0tDZ2RhbFhoU3JVNW55amF4a3FQeHpFb21BYXhHQnRzbW9JQjN0U3pJbWx2QU5pcTdyU0dsS2J1Snh1bldybWVQVUo3YWctdHRwZ1FuM0lGQjB3?oc=5",
+      "source": "Yahoo - 汽機車",
+      "topic": "Model Y",
+      "date": "2026-07-09T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "Tesla銷量狠甩現代汽車、中國品牌同步搶市 南韓電動車陷入苦戰",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPem9LaE9zYTVXcmdtN2ppelNteU1rWVdpN0RYQk1PSDV4d3lEdk5RaDIxODEyc0J2UDRUbFhtb3R3MXZmNTBGNlM1YmUyendydnBHTTBQRmNnTVdrTnY3clpXcUprY09ocF9fUGZvSTRYTE5ZUWtYU1Rsb0FMUF92a0hURFh5dDdpNFpkRFB3?oc=5",
+      "source": "DIGITIMES",
+      "topic": "品牌動態",
+      "date": "2026-07-09T07:00:00.000Z",
+      "group": "highlight",
+      "score": 1
+    },
+    {
+      "title": "TESLA 影響力報告 2025 出爐： 輔助駕駛碰撞率僅人類八分之一",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBoOFdLbEpyUWZ3Q1lnMEh2enNBYUNTSlBPRXZZb3JBRDlyaElyWTYxdko0azFxOUJRbkxRcWNWVkgtSVBqcXpwUmFxMk5KazRKNHhOWGE1QmRXRlBZbzQ5S2xzN2NzUTJsblk0MW5BRnUyMGtfU1dxNg?oc=5",
+      "source": "unwire",
+      "topic": "品牌動態",
+      "date": "2026-07-09T07:00:00.000Z",
+      "group": "other",
+      "score": -1
+    },
+    {
+      "title": "獨／Model Y電池頻出包！幾乎都是「這年份」 車主怒：不像個案",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBVcEtKckR2Q3lybXFNVjdlSDFIaUdkS0RPRzNmZXEwamtCLVo3M2dOSUxsbWdGVTd0QkJKd3hIQ2s3cFloZTJIOExCdTRNNEU?oc=5",
+      "source": "TVBS新聞網",
+      "topic": "Model Y",
+      "date": "2026-07-08T07:00:00.000Z",
+      "group": "other",
+      "score": -1
+    },
+    {
+      "title": "特斯拉台灣元老據點要關了！官方公布7/12結束營業　未來規劃公開",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5yd3JaMlRFZHcxSktHeG1fbFNYcFV2cVI0SkJZcG1OZWdoU1NRRFJYaTVZNndYVW5uekFHT1RxNlhlR2JwbUlDY1k2ZmzSAVJBVV95cUxNWi1qUy1qemtjdDBVc3p1ejg5RVpoNWhaVEtPMFJCTkNCVHRoOFJzQ2xhQ25HTmN0NzVxTm5EY0FvVVlfVGU5aENBUHMxVzFaSVl3?oc=5",
+      "source": "NOWnews今日新聞",
+      "topic": "台灣市場",
+      "date": "2026-07-08T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "特斯拉內湖據點確定結束營業！曾因降價 300 萬元引爆車主到場抗議",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE16NGdCdjQ4bWNZank2VU5nazR4S3Z1M1UydkJNZ0hOWjNjTjhfLTh5cFhlVWZtUzFaaHVzcElLX09RU1RmOGU0YXV30gFPQVVfeXFMUE05U0VLZTlEeU40WnNBR09WVGp2SExxaE11TTg0RVo2Q1hkN0NicGZjbEU1aE9yN1QxQldFTG9aWXQweUYzUWlNUUhsOWtLMA?oc=5",
+      "source": "自由電子報汽車頻道",
+      "topic": "台灣市場",
+      "date": "2026-07-08T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "用英語聊汽車：特斯拉Model Y L加長版",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE81UVJINTdXR3J3RHV3SkZxVnZvM01XcmVVRUlGXy1jNFFNcUNTRzVfT09vYmJrcmlEQUVtV3N1Y3N0Rzk3VHBkZENwd3llY0p2c1FJQk9lZGw4QWMzQ1kw0gFkQVVfeXFMTm1VckRNck5ydFVZQk04VWkzcS01YmJhYkZfVW5HYm10MmtwdlFLUDV4NWV3NVhHeV9rcXhOeWpzbmJDeE1rbDFqd0lKZEhBcG9aeXJRLTVPTWd2TEgyV2x1X3kydw?oc=5",
+      "source": "epochtimes.com",
+      "topic": "品牌動態",
+      "date": "2026-07-08T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "特斯拉影響力報告 2025 懶人包：產品發展、自駕技術、Robotaxi 等 8 項重點整理",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9rLWtxeWNkSTZ2RHpPNkRDUjZmekRvWUpRSnpCWG5GUXROYU1ZZ21sWjBPTEZRVmtlbVVHNXRzR2d3Tnc1MnNyVklXUFo?oc=5",
+      "source": "蘋果仁",
+      "topic": "品牌動態",
+      "date": "2026-07-08T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "2317 鴻海 - 電車新聞特斯拉Model Y RWD 電池災情延燒- 股市爆料同學會",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5yaEpVb05zWHBlNjh3dmlNaGFkSzMwTTFMazhYano5Z0c2VzRDZTB6RXdzMnV5Zld3MXlkVVVySVdMWjBHY0VpVzlmbUt5YVJ2ZHh4eUN1T20?oc=5",
+      "source": "CMoney",
+      "topic": "Model Y",
+      "date": "2026-07-07T20:47:49.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "東京買特斯拉全球最便宜！Model 3只賣66萬，比台灣便宜超過百萬",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9nQl9IWV9xVmUyOW1Na1FQYVctenZraXJLdThuSHlsVmFBOXJjR2dMbGV4cEZoSVd1LUlXWTNDaDhwaHZWSng5S3FETUEyRUdLaGc?oc=5",
+      "source": "地球黃金線",
+      "topic": "Model 3",
+      "date": "2026-07-07T07:00:00.000Z",
+      "group": "highlight",
+      "score": 1
+    },
+    {
+      "title": "中國電車保值率排名｜Model 3保值率破60% BYD海鷗51%守國產顏面｜數碼生活",
+      "link": "https://news.google.com/rss/articles/CBMi_AJBVV95cUxQZWFuVmlNQjJIcFFxM1hwTlZxdjFGeUhwejZXd1dPMTMwZUR4T0xfV3J4c3BxdG9xZzlSSkNnZjdzeGR4bllXWk9HNmZ2YUdhVEQzMXgxMEZMbDMwUnJ6UWJHaUxmME5JOWRUdDlER2FZdElSeWtkUkhoMm1GWHhqNTNZcFNBNTM1UUdoX0ZITWVJcUs5bmxsZi11WmZIazNucWlBVDRoeU1RS21LODlYS0JhNDJ6UnI1X0NaNG1Fa3U1Vm1YM2pkLXFtV2pjYjZDZjM4YnY2VVh5eW1YVzFiUHNYMXdaeHNSQjJlSV9MbGdUdG9aVVRiblJkNWR1SW4xOXVnM0dHX3E3LXl3V0xyaF9qZHpkSHhVSkc5cU5ldTlhbUF3UWVjR2hxV2dScjFtTnh2ang0V21FU2tZZVRoNUJuWllicDlpd3ZOS21aNV9ZVjZQRGtkM1VYOEFPXzdZTndrNW8ya1YwRExQcEh5bzNOQUxYTDhJWVFraA?oc=5",
+      "source": "hk01.com",
+      "topic": "Model 3",
+      "date": "2026-07-07T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "怎能不愛車／加長版Model Y美國開賣！6座豪華配置曝光",
+      "link": "https://news.google.com/rss/articles/CBMixAJBVV95cUxPeUFxcjduWDRNakpMNnZWNGpvcDNLek1lYnpQV2hxMmt2c1FsNERlS1ZaUkE0VFc1Wm8tWDN6by1yVFhQLVBXeXMyaHFnazBHbUdyb2dsLUlZRzM4ZGh2SXlJMi1PMjgwdGQ3V1RsQnV4RGREdTVPZ2Z4WVdOdE1uNnR1OXJSVmpJeUdZX0RIZ203REsxS1N6RFVvYmYyVmZhMEh4YXpQVUppaG1IWmpaZ3M2SXJYZHpfSUNmQXBIMW9DaTFBcl8wZmN0TXlmRUU2TUd5bVM1blRGZ0FyRU1uV2VIR19NNnZVazFPRjdHX2Zwdk0wV3BRWFhWOVJjaE9wQXQ1aFJ4RDJCdERvcXF1R0lkWFlwYU90NGxkbGEwLV9obEZRYzhjajlpcUo1dGNybGtiQlRfNTRVOFdNbnVFZTJNaVc?oc=5",
+      "source": "Yahoo新聞",
+      "topic": "Model Y",
+      "date": "2026-07-07T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "Tesla Model YL「長軸版」北美首發｜六人座、更豪華、6.2萬美金起約200萬台幣",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE80d3VfRVFfNV9DTE1MU0VwYi12aktJZmFZWmJHWVUyR1hyNlVjWFZ2M0JEVjBGeGd2ejlmbzZpTTJJb3RnUHFTSXh0WGRzaGpsMGY5Tzltc216TEJOMHc?oc=5",
+      "source": "CARLINK鏈車網",
+      "topic": "Model Y",
+      "date": "2026-07-07T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "特斯拉 Model Y RWD 電池災情延燒：BYD 刀片電池換修要等料一個月？",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE93UkVESmc3VkZ2VHVhekRfTDBoN0ZrUVhfQmFDQ0s1UTJXUlp0OVdwMUpSTzYxTENrN0ZTb3RFX0d6YkhacEhpWndqM2pfc2VsZTNGcjJTTnZkX0hmMGhKNWVRb0dyNi1saXZkWmprM0g?oc=5",
+      "source": "electrify.tw",
+      "topic": "Model Y",
+      "date": "2026-07-07T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "電動車真慳錢？Tesla Model Y駕10年開銷平過油車 開銷相差14萬",
+      "link": "https://news.google.com/rss/articles/CBMi8wJBVV95cUxOZmU2V1lHOGFKbm1XWUNtcmdzQlp0a0Y3X0xEZ3NrQk9ObkYyRFNmMHBza0hiOVM3WG5rcVA3aU1ITWFadEgtQ2Z4bnFpVS1TM0x2UW9ud2RIZGw2T3pyY09laW55dUF5SjQzRUNPUnZmMURGV0JId283dmFvQWVXd2xrbnlPMnN5T3ZpSFlNTy1rNVd6M2VXS1Z3MlptWW5fQUs0cU9UaFh0UEJvVWY2Um9sTGJjLU1rOGZSMkdLYjZMUW9aM1Z4Y3dYemlPVnk2cmZRZmM5MzhaUkM3VlBtc3pxQ2NjcUxJS09lR3kwdnBRQkVXRkUwR0Y3c1JNWU1WRFdwSmEtWUp2SzhPS1RSSWVQdmRBUHAzVFRzZEVwVzcyNS1NU0RrR2RQdUJzU0ZISjVZVmlpLWI3VTM5NjRjbDFkTE9UNzVMVUJJTFN0MFNiRzhCMktISHlJb2hLbzRqc0xRbUhlMHI0SGFsZ0sxVmVsOA?oc=5",
+      "source": "hk01.com",
+      "topic": "Model Y",
+      "date": "2026-07-07T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "Tesla 推出夏季系列精品 包含 595 美元 Model Y 後車廂冰箱",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBsWVl2WTVTTUQzQUZ3UV9ValkxWUIyeW96U1NqYjRKODhWN3pWZ0RiOV9fVE5NQjZ0aTNrUFhoRFRNU1duWEtHX3I4WTBjZDR0TDhCYUFn?oc=5",
+      "source": "Business Insider Taiwan",
+      "topic": "Model Y",
+      "date": "2026-07-07T07:00:00.000Z",
+      "group": "highlight",
+      "score": 1
+    },
+    {
+      "title": "鴻海劉揚偉：台灣2落差難孵化台版特斯拉 盼鴻華先進成新創圈典範｜新聞快訊｜豐雲學堂",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE01N01fbGVHQW1YOUt5OXJxS1BDdHZkeDY0TVhyZHFzeE44U0szTEJtcHhfTXdDYTllckxsZTZsVENxOVBOcXR5bGZLRHlNTXZYaldCUkdYamN0cTBqaG81UEFkM3lmZzdoWmtYSXRwRkJUcGxSZ3c?oc=5",
+      "source": "sinotrade.com.tw",
+      "topic": "台灣市場",
+      "date": "2026-07-07T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "影音／特斯拉內湖體驗中心7/12熄燈！陪伴車主近9年 充電站仍保留 | TVBS",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBsOEJidTF3QWhOc2pMUW8tREJBTTVTdlNRLU95TjZwYTBqYlM3WktqVGRuSFZXMk5jUFVwS3k3U1NhUzVpT3o4eVBYWUdaYXIxVkRzdmVn?oc=5",
+      "source": "LINE TODAY",
+      "topic": "台灣市場",
+      "date": "2026-07-07T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "內湖據點將熄燈，Tesla 推全台充電優惠新制",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBOZS1wTURINWFIRGxMaXBkeFV2aFJuekRLTlA4QTREWG1SRzdrclZ3cGV1LXVlaWp1ODhNcDBLZDJ3UEw1TXhxNDJpU1ZKbFJWYXpFZmJhY1B4ZUN1NTQ4?oc=5",
+      "source": "中時新聞網",
+      "topic": "品牌動態",
+      "date": "2026-07-07T07:00:00.000Z",
+      "group": "highlight",
+      "score": 1
+    },
+    {
+      "title": "補助效應、日本上季EV銷量破紀錄 特斯拉飆1.8倍",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNeS0yRnlFSzQwQkNKTFQ5dkFGeWZYTDA3RDZiZUZXbXdxTFRodkFHOWFET1ljQ1pvSDRSWk13bmRlN1VkeFljc01feFRXZ1pRZXNxaG9nVl9EVzF6ZWdiUV9fM2tma0xvRVNRR3JkT3ljZ2FWbk9fRlVXeXhvSVhBbkV4Mm5oNEx1c1F2Tk9UYVNPUQ?oc=5",
+      "source": "MoneyDJ",
+      "topic": "品牌動態",
+      "date": "2026-07-07T07:00:00.000Z",
+      "group": "highlight",
+      "score": 3
+    },
+    {
+      "title": "特斯拉推出 Tesla Home：商用 AI 能源管理導入 Powerwall 住家系統 | electrify.tw",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9HWTZTUlhTaVd2TUN2Qnk1OC1hMmt5VEw5ZUJLSmlvV1p6YXNnbHFxQjVsNUI0VURkMWZMSnJid3dWVGJsTzZxc2pFbnE5c0xqaXM2Tmtn?oc=5",
+      "source": "LINE TODAY",
+      "topic": "品牌動態",
+      "date": "2026-07-07T07:00:00.000Z",
+      "group": "highlight",
+      "score": 1
+    },
+    {
+      "title": "【電動車vs混能油車】開10年邊款更慳錢？Tesla Model Y 對決BMW/Toyota總支出差距竟高達14萬",
+      "link": "https://news.google.com/rss/articles/CBMikwNBVV95cUxQMFktLUItS2ZyNlZMMFVfN0JoX3loRzhtUVRFdG1jTUVpakRiNDRHcTUxbm50VW9xOEJycnd2OXNaWG1xOWZSSWVBVUxTSTZrU1N5Z1QzR3hTMGhpaGlaR1VkeHdDM01QUXNDLWE4MWktZUo2eEMtN1JNNE5VLXV5ZWFKQzAzVmVnVnJJaHNEanR4U0lScmlMRU1QTV9TOUxXSXgzNXYwUzZYWGk2RXBhWmRHNTRQY1pfU2VaTmZpaFR4M3NCaVZjWDY2c1hpbUlmZTVOdGtRbG1yd3hRWnVvUmtNeGNCTGItWTFwdHZ6MWpob3E3Um5tY2c3bVlHUkpmaFFBWnh6cjNOUFpZemtJdi1iZ0dweGVKM2pzeWpKeUd0YWhLWUtKSDFabF9tenp1MEZsQl9yM0RMaGlzYTRibXhHR0k4M213clptcTBDRnRQeW9SbjJzbUIxdlZEOTVMMldILUg2Q3dkX094NjM5UWVDSFNVcC1tS2ZaekplV05FdE53emhhVTBBZDMxZFlwakdR?oc=5",
+      "source": "ezone.hk",
+      "topic": "品牌動態",
+      "date": "2026-07-07T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "台灣也想要！特斯拉Model Y L首發版北美開賣、折合台幣198萬！",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5SQm0tRmt0cnFnUV95YUZhOGJjbW1BTFNlT2Z4U3F4MnJHOVE1RENoVVNQMGs4Ymhrak82MDZuaTVzTGpFaUhiTTh5eGJNOUlvVWVfeUE2MkNIQQ?oc=5",
+      "source": "8891新車",
+      "topic": "Model Y",
+      "date": "2026-07-06T14:01:17.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "29款2026最值得入手電動車推薦（附價錢參考）！必入手最強車款：BMW、Tesla、Audi、Kia、BYD",
+      "link": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxOTzFGaXlkUXJhQktBYkY2N2p2LUI0V3RNSVBVRzBYZWJUVjBvenRQT3luMHcyRGJCanBLRFpNNkxrYzdtWjl5ZS10eUNKSmhPZm1CNlhPbFNTcGFtZ01paGhMcEdKLVFfRl9IUC1JNkhraWZRWEdJTm94VEU5UVZ2WmNtNk4tWm5hVGFfNXB4c0I1NkJDZ3dsN0lLOW9aS0dScGl4VzFkT2VZYmpiVHN5TEc1WmVlcUFzSEs3Q2NNeDBRNHRuY2NnWWpELThqVzhpRFVOX2VVTW5HcHdhVTlUR2hwdGtZbUdkS28xMGVtekxncG1oY21IeWozMGl5S2J1ZlNzRkh2ZVZReHYwS18wQkNfYWYtdk0tUE9PYWxDb1hYd2JCZlhSNnBaWjA4WkhSRFIzRmt5QUEteHlIQW1DWVp2V3NKUnRi?oc=5",
+      "source": "Yahoo",
+      "topic": "Model 3",
+      "date": "2026-07-06T07:00:00.000Z",
+      "group": "highlight",
+      "score": 1
+    },
+    {
+      "title": "特斯拉Model Y和豐田bZ均暢銷 誰是贏家",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAtUHR3WjE4TGdZdDN6OHEzajRjeUpLTC1oTEFieVotRDBEWHBBMHpvd3dVQ2pBbkhFY1hNek5RZ3F1VWN6VW03cUxnakR0TGVvZkh6X0E0VDhLQ1RwdjlQQdIBZkFVX3lxTE1rTEVjbTFLSzJjdHB6RmYtSGpfQUMwU3lhaGJuZUFLTTdCcWc1VFFNMGdDU1lZOW4zbGdPZGZONVFWWnY5QUI0c3VVMlRpdVg2LXZzU3lmXzVQUFE5Y0JvRXVmTjk0QQ?oc=5",
+      "source": "epochtimes.com",
+      "topic": "Model Y",
+      "date": "2026-07-06T07:00:00.000Z",
+      "group": "highlight",
+      "score": 1
+    },
+    {
+      "title": "買特斯拉只要66萬！官方認證「東京買車全球最便宜」　台灣要多花100萬",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5LSHVnV1FmNE9mZXpHQWtxRVF1bG1QamdJLURkVG05QV9ZQTNWQ0s3UTlsOXZaWDR1MjlkeHdaSGUwYXd2dGVXWS15ZGg5d2_SAU5BVV95cUxONEp0NlJkQzFUb0pvaEZKa2h6QWktMDIyeG4teWo4TDFpd05wRllGU2JwdlBBS3pzZU0temlHbXZnWXM4TkNqdXJrcXAwZ0E?oc=5",
+      "source": "ETtoday車雲",
+      "topic": "Model Y",
+      "date": "2026-07-06T07:00:00.000Z",
+      "group": "highlight",
+      "score": 1
+    },
+    {
+      "title": "特斯拉推出加長版Model Y 瞄準家庭SUV市場",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAtUm1zbm1FTzV3bEFobllSV3BockRxWHJTMTZ2bFJJY2xyVzYxQWZJVHdRRnFPV2Q5dUhHME9CeUZ5bVdIWEVZMFRxYTcwSkU2RXc?oc=5",
+      "source": "富途牛牛",
+      "topic": "Model Y",
+      "date": "2026-07-06T07:00:00.000Z",
+      "group": "highlight",
+      "score": 1
+    },
+    {
+      "title": "特斯拉 Robotaxi 登陸邁阿密！Cybercab 測試與無障礙展示也有新進展",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9SUEVEYnE0WS00U3E4WURBTnR1UFZEX2NuU0pTVk5MVC1ralVSSHIxRzRjend1SFRsQTN4OXZBVmlhazZKbU9PY0VzRTJ1RGxSdXg1ekpTM1BLamt5OWVTdURHcUROR2FJRVZDcWNmUFFuSTA?oc=5",
+      "source": "electrify.tw",
+      "topic": "Model Y",
+      "date": "2026-07-06T07:00:00.000Z",
+      "group": "other",
+      "score": 0
+    },
+    {
+      "title": "特斯拉銷量回升超預期 歐洲市場扮關鍵角色",
+      "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxQalNwX3J2SlQyRHltT0VCcXNIWFVvNG1DUFRDSWYwV1JvYjJINHNTak8ybTNteDBkWUJMNzJYUGdJNUw0MHZta1lJeUllai1zMEdacjFXWjhFVlNzYWhMSEZ6SXZ2OWhCcW9OOS11Y3hjd2sycHNOXzg4OTFmb19YQTc3V3h1OV9ncWJvb3NVTzBWV1g1VmZackRULTFmZHVoQmxmVmtsUVVmR0VZRHpBdmhXdWdUS28wOUc2YVVHT1NpWnFUNnNVdzEyei1rSk1ReXBmdWl0aHdjSS1ydVFhVnBXUEM0WHBnZk1FOUkxcHZURzEySm9heFRKZktPUnphSzlEUDNxdjl4ZGJadGM0RXNUaC03OXhXc3NoblZsM2tOSnliUGo2UWRQT3dPdlY0dEdZcWJGUUNJelVVUzc4?oc=5",
+      "source": "商傳媒",
+      "topic": "品牌動態",
+      "date": "2026-07-06T01:46:11.000Z",
+      "group": "highlight",
+      "score": 2
+    }
+  ]
 }

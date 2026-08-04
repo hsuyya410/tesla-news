@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Tesla 新聞彙整｜Model 3 ・ Model Y</title>
-<meta name="description" content="自動彙整近 30 天 Tesla Model 3 與 Model Y 相關中文新聞，資料來源為公開新聞媒體。">
+<meta name="description" content="自動彙整近半年 Tesla Model 3 與 Model Y 相關中文新聞，可依購車優勢角度與期間篩選。資料來源為公開新聞媒體。">
 <style>
   :root {
     --bg: #f5f6f8;
@@ -15,6 +15,7 @@
     --accent: #1f6feb;
     --good: #0f7b52;
     --good-bg: #e7f5ee;
+    --good-line: #bfe3d2;
     --neutral-bg: #eef0f3;
     --shadow: 0 1px 2px rgba(16,24,40,.05), 0 4px 12px rgba(16,24,40,.05);
   }
@@ -22,7 +23,7 @@
     :root {
       --bg: #0f1115; --card: #171a21; --ink: #e8eaed; --muted: #9aa1ad;
       --line: #262b34; --accent: #5b9bff; --good: #4ecf9a; --good-bg: #14322a;
-      --neutral-bg: #21262f;
+      --good-line: #235c47; --neutral-bg: #21262f;
       --shadow: 0 1px 2px rgba(0,0,0,.4), 0 4px 12px rgba(0,0,0,.3);
     }
   }
@@ -33,17 +34,20 @@
                  BlinkMacSystemFont, "Segoe UI", sans-serif;
     line-height: 1.6; -webkit-font-smoothing: antialiased;
   }
-  .wrap { max-width: 860px; margin: 0 auto; padding: 20px 16px 56px; }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 20px 16px 56px; }
 
-  header { margin-bottom: 18px; }
+  header { margin-bottom: 16px; }
   h1 { font-size: 21px; margin: 0 0 6px; letter-spacing: -.01em; }
   .tagline { color: var(--muted); font-size: 13px; margin: 0; }
 
-  .bar {
-    display: flex; flex-wrap: wrap; gap: 10px; align-items: center;
+  .panel {
     background: var(--card); border: 1px solid var(--line); border-radius: 12px;
-    padding: 12px 14px; box-shadow: var(--shadow); margin: 16px 0 18px;
+    padding: 13px 14px; box-shadow: var(--shadow); margin: 16px 0 14px;
   }
+  .row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+  .row + .row { margin-top: 11px; padding-top: 11px; border-top: 1px solid var(--line); }
+  .lbl { font-size: 12px; color: var(--muted); font-weight: 600; flex: 0 0 auto; margin-right: 1px; }
+
   #refresh {
     appearance: none; border: 0; cursor: pointer; font: inherit; font-weight: 600;
     font-size: 14px; color: #fff; background: var(--accent);
@@ -59,43 +63,56 @@
   #refresh.loading .ico { display: none; }
   @keyframes rot { to { transform: rotate(360deg); } }
 
-  .stamp { font-size: 12.5px; color: var(--muted); flex: 1 1 190px; }
+  .stamp { font-size: 12.5px; color: var(--muted); flex: 1 1 180px; }
   .stamp b { color: var(--ink); font-weight: 600; }
 
   #q {
-    flex: 1 1 170px; min-width: 130px; font: inherit; font-size: 14px;
+    flex: 1 1 160px; min-width: 120px; font: inherit; font-size: 14px;
     padding: 8px 12px; border-radius: 9px; border: 1px solid var(--line);
     background: var(--bg); color: var(--ink);
   }
   #q:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
 
-  .chips { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 20px; }
   .chip {
     font: inherit; font-size: 13px; cursor: pointer; border: 1px solid var(--line);
-    background: var(--card); color: var(--muted); padding: 6px 13px; border-radius: 999px;
+    background: var(--bg); color: var(--muted); padding: 6px 13px; border-radius: 999px;
+    transition: background .12s, color .12s, border-color .12s;
   }
+  .chip:hover { border-color: var(--accent); color: var(--accent); }
   .chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+  .chip .n { opacity: .65; font-size: 11.5px; margin-left: 3px; }
+  .chips-a .chip[aria-pressed="true"] { background: var(--good); border-color: var(--good); }
 
   h2 {
     font-size: 15px; margin: 26px 0 11px; display: flex; align-items: center; gap: 9px;
-    letter-spacing: .01em;
   }
   h2 .pill { font-size: 11.5px; font-weight: 600; padding: 2px 9px; border-radius: 999px;
     background: var(--neutral-bg); color: var(--muted); }
-  h2.hl .pill { background: var(--good-bg); color: var(--good); }
+  h2.adv { color: var(--good); }
+  h2.adv .pill { background: var(--good-bg); color: var(--good); }
+  h2 .hint { font-size: 11.5px; font-weight: 400; color: var(--muted); }
 
   ul.list { list-style: none; margin: 0; padding: 0; display: grid; gap: 9px; }
   li.item {
     background: var(--card); border: 1px solid var(--line); border-radius: 11px;
     padding: 13px 15px; box-shadow: var(--shadow);
   }
+  li.item.adv { border-left: 3px solid var(--good); }
   li.item a.t {
     color: var(--ink); text-decoration: none; font-size: 15px; font-weight: 600;
     display: block; margin-bottom: 6px; line-height: 1.45;
   }
   li.item a.t:hover { color: var(--accent); text-decoration: underline; }
-  .meta { font-size: 12.5px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 5px 10px; align-items: center; }
+  .meta { font-size: 12.5px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 5px 9px; align-items: center; }
   .meta .tag { background: var(--neutral-bg); padding: 1px 8px; border-radius: 5px; font-size: 11.5px; }
+  .meta .tag.a { background: var(--good-bg); color: var(--good); border: 1px solid var(--good-line); }
+
+  #more {
+    display: block; margin: 18px auto 0; font: inherit; font-size: 14px; font-weight: 600;
+    cursor: pointer; background: var(--card); color: var(--accent);
+    border: 1px solid var(--line); border-radius: 9px; padding: 10px 22px;
+  }
+  #more:hover { border-color: var(--accent); }
 
   .empty { color: var(--muted); font-size: 14px; background: var(--card); border: 1px dashed var(--line);
     border-radius: 11px; padding: 22px; text-align: center; }
@@ -117,31 +134,50 @@
 
 <header>
   <h1>Tesla 新聞彙整</h1>
-  <p class="tagline">Model 3 ・ Model Y ・ 台灣市場｜近 30 天公開中文新聞</p>
+  <p class="tagline">Model 3 ・ Model Y ・ 台灣市場｜公開中文新聞，涵蓋近半年</p>
 </header>
 
-<div class="bar">
-  <button id="refresh" type="button">
-    <span class="ico" aria-hidden="true">↻</span><span class="spin" aria-hidden="true"></span>
-    <span>更新最新新聞</span>
-  </button>
-  <span class="stamp" id="stamp">載入中…</span>
-  <input id="q" type="search" placeholder="搜尋標題關鍵字…" autocomplete="off">
-</div>
+<div class="panel">
+  <div class="row">
+    <button id="refresh" type="button">
+      <span class="ico" aria-hidden="true">↻</span><span class="spin" aria-hidden="true"></span>
+      <span>更新最新新聞</span>
+    </button>
+    <span class="stamp" id="stamp">載入中…</span>
+    <input id="q" type="search" placeholder="搜尋標題關鍵字…" autocomplete="off">
+  </div>
 
-<div class="chips" id="chips">
-  <button class="chip" type="button" data-topic="all" aria-pressed="true">全部</button>
-  <button class="chip" type="button" data-topic="Model 3" aria-pressed="false">Model 3</button>
-  <button class="chip" type="button" data-topic="Model Y" aria-pressed="false">Model Y</button>
-  <button class="chip" type="button" data-topic="台灣市場" aria-pressed="false">台灣市場</button>
-  <button class="chip" type="button" data-topic="品牌動態" aria-pressed="false">品牌動態</button>
+  <div class="row" id="ranges">
+    <span class="lbl">期間</span>
+    <button class="chip" type="button" data-days="1"   aria-pressed="false">24 小時</button>
+    <button class="chip" type="button" data-days="7"   aria-pressed="false">近 7 天</button>
+    <button class="chip" type="button" data-days="30"  aria-pressed="true">近 30 天</button>
+    <button class="chip" type="button" data-days="90"  aria-pressed="false">近 3 個月</button>
+    <button class="chip" type="button" data-days="180" aria-pressed="false">近半年</button>
+  </div>
+
+  <div class="row" id="topics">
+    <span class="lbl">主題</span>
+    <button class="chip" type="button" data-topic="all" aria-pressed="true">全部</button>
+    <button class="chip" type="button" data-topic="Model 3" aria-pressed="false">Model 3</button>
+    <button class="chip" type="button" data-topic="Model Y" aria-pressed="false">Model Y</button>
+    <button class="chip" type="button" data-topic="台灣市場" aria-pressed="false">台灣市場</button>
+    <button class="chip" type="button" data-topic="品牌動態" aria-pressed="false">品牌動態</button>
+  </div>
+
+  <div class="row chips-a" id="angles">
+    <span class="lbl">購車優勢</span>
+    <button class="chip" type="button" data-angle="all" aria-pressed="true">全部</button>
+    <!-- 其餘角度按鈕由 JS 依 news.json 產生 -->
+  </div>
 </div>
 
 <div id="error" class="err" hidden></div>
 <div id="content"></div>
+<button id="more" type="button" hidden>載入更多</button>
 
 <footer>
-  <p><strong>關於這個頁面</strong>：新聞由 Google News 公開 RSS 自動彙整，分類為程式依關鍵字判斷，僅供快速瀏覽參考。標題與連結均為原媒體內容，著作權屬各原媒體所有。</p>
+  <p><strong>關於這個頁面</strong>：新聞由 Google News 公開 RSS 自動彙整，「購車優勢」與角度標籤為程式依關鍵字判斷，僅供快速瀏覽參考。標題與連結均為原媒體內容，著作權屬各原媒體所有。</p>
   <p>本頁為個人整理之新聞聚合頁面，<strong>非 Tesla 官方網站，亦不代表 Tesla 之立場或聲明</strong>。車輛規格、價格與供應狀況請以 tesla.com 官方公告為準。</p>
   <p id="foot-stamp"></p>
 </footer>
@@ -153,11 +189,13 @@
   'use strict';
 
   var DATA_URL = 'data/news.json';
-  var state = { items: [], topic: 'all', q: '' };
+  var PAGE = 60;
+
+  var state = { items: [], labels: {}, days: 30, topic: 'all', angle: 'all', q: '', limit: PAGE };
 
   var $ = function (id) { return document.getElementById(id); };
   var contentEl = $('content'), stampEl = $('stamp'), errEl = $('error');
-  var btn = $('refresh'), qEl = $('q'), footStamp = $('foot-stamp');
+  var btn = $('refresh'), qEl = $('q'), footStamp = $('foot-stamp'), moreEl = $('more');
 
   function esc(s) {
     return String(s).replace(/[&<>"']/g, function (c) {
@@ -169,12 +207,14 @@
     if (!iso) return '';
     var d = new Date(iso);
     if (isNaN(d)) return '';
-    return (d.getMonth() + 1) + '/' + d.getDate();
+    var now = new Date();
+    var sameYear = d.getFullYear() === now.getFullYear();
+    return (sameYear ? '' : d.getFullYear() + '/') + (d.getMonth() + 1) + '/' + d.getDate();
   }
 
   function fmtStamp(iso) {
     var d = new Date(iso);
-    if (isNaN(d)) return '未知';
+    if (isNaN(d)) return '尚未產生';
     var p = function (n) { return n < 10 ? '0' + n : String(n); };
     return d.getFullYear() + '/' + p(d.getMonth() + 1) + '/' + p(d.getDate()) +
            ' ' + p(d.getHours()) + ':' + p(d.getMinutes());
@@ -182,39 +222,86 @@
 
   function matches(item) {
     if (state.topic !== 'all' && item.topic !== state.topic) return false;
+    if (state.angle !== 'all' && (item.angles || []).indexOf(state.angle) === -1) return false;
     if (state.q && item.title.toLowerCase().indexOf(state.q) === -1) return false;
+    if (item.date) {
+      var age = (Date.now() - new Date(item.date).getTime()) / 86400000;
+      if (age > state.days) return false;
+    }
     return true;
   }
 
-  function renderSection(title, cls, items) {
+  function angleTags(item) {
+    var out = '';
+    for (var i = 0; i < (item.angles || []).length; i++) {
+      var lab = state.labels[item.angles[i]];
+      if (lab) out += '<span class="tag a">' + esc(lab) + '</span>';
+    }
+    return out;
+  }
+
+  function renderSection(title, cls, hint, items) {
     if (!items.length) return '';
     var html = '<h2 class="' + cls + '">' + title +
-               '<span class="pill">' + items.length + ' 則</span></h2><ul class="list">';
+               '<span class="pill">' + items.length + ' 則</span>' +
+               (hint ? '<span class="hint">' + hint + '</span>' : '') +
+               '</h2><ul class="list">';
     for (var i = 0; i < items.length; i++) {
       var it = items[i];
-      html += '<li class="item">' +
+      html += '<li class="item' + (cls === 'adv' ? ' adv' : '') + '">' +
         '<a class="t" href="' + esc(it.link) + '" target="_blank" rel="noopener noreferrer">' +
         esc(it.title) + '</a>' +
         '<div class="meta">' +
           (fmtDate(it.date) ? '<span>' + fmtDate(it.date) + '</span>' : '') +
           '<span>' + esc(it.source) + '</span>' +
           '<span class="tag">' + esc(it.topic) + '</span>' +
+          angleTags(it) +
         '</div></li>';
     }
     return html + '</ul>';
   }
 
   function render() {
-    var shown = state.items.filter(matches);
-    if (!shown.length) {
-      contentEl.innerHTML = '<div class="empty">找不到符合條件的新聞，換個關鍵字或分類試試。</div>';
+    var all = state.items.filter(matches);
+
+    if (!all.length) {
+      contentEl.innerHTML = '<div class="empty">這個期間／條件下沒有符合的新聞，把期間拉長或換個篩選試試。</div>';
+      moreEl.hidden = true;
       return;
     }
+
+    var shown = all.slice(0, state.limit);
+    var adv = shown.filter(function (i) { return i.group === 'advantage'; });
     var hl = shown.filter(function (i) { return i.group === 'highlight'; });
-    var other = shown.filter(function (i) { return i.group !== 'highlight'; });
+    var other = shown.filter(function (i) { return i.group === 'other'; });
+
     contentEl.innerHTML =
-      renderSection('亮點報導', 'hl', hl) +
-      renderSection('其他相關報導', '', other);
+      renderSection('購車優勢', 'adv', '成本 / 產品力 / 市場肯定 / 充電 / 安全', adv) +
+      renderSection('其他亮點', '', '', hl) +
+      renderSection('其他相關報導', '', '', other);
+
+    if (all.length > state.limit) {
+      moreEl.hidden = false;
+      moreEl.textContent = '載入更多（還有 ' + (all.length - state.limit) + ' 則）';
+    } else {
+      moreEl.hidden = true;
+    }
+  }
+
+  function buildAngleChips(labels, counts) {
+    var box = $('angles');
+    var olds = box.querySelectorAll('.chip[data-angle]:not([data-angle="all"])');
+    for (var i = 0; i < olds.length; i++) olds[i].remove();
+    Object.keys(labels).forEach(function (key) {
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'chip';
+      b.dataset.angle = key;
+      b.setAttribute('aria-pressed', 'false');
+      b.innerHTML = esc(labels[key]) +
+        (counts && counts[key] ? '<span class="n">' + counts[key] + '</span>' : '');
+      box.appendChild(b);
+    });
   }
 
   function load(manual) {
@@ -228,14 +315,21 @@
       })
       .then(function (data) {
         state.items = data.items || [];
+        state.labels = data.angleLabels || {};
+        state.limit = PAGE;
+        buildAngleChips(state.labels, data.angleCounts);
+
         var s = fmtStamp(data.updatedAt);
         stampEl.innerHTML = '資料更新於 <b>' + esc(s) + '</b>　共 ' + state.items.length + ' 則';
-        footStamp.textContent = '資料更新時間：' + s + '（雲端每 2 小時自動重抓一次，按「更新最新新聞」可取得最新一份）';
+        footStamp.textContent = '資料更新時間：' + s +
+          '（雲端每 2 小時自動重抓一次，涵蓋近 ' + (data.coverageDays || 180) +
+          ' 天；按「更新最新新聞」可取得最新一份）';
         render();
       })
       .catch(function (e) {
         errEl.hidden = false;
-        errEl.textContent = '讀取新聞資料失敗（' + e.message + '）。資料可能正在產生中，請稍後再按一次「更新最新新聞」。';
+        errEl.textContent = '讀取新聞資料失敗（' + e.message +
+          '）。資料可能正在產生中，請稍後再按一次「更新最新新聞」。';
         if (!state.items.length) contentEl.innerHTML = '';
         stampEl.textContent = '讀取失敗';
       })
@@ -245,20 +339,33 @@
       });
   }
 
+  function wireChips(boxId, apply) {
+    $(boxId).addEventListener('click', function (e) {
+      var chip = e.target.closest('.chip');
+      if (!chip) return;
+      var all = this.querySelectorAll('.chip');
+      for (var i = 0; i < all.length; i++) all[i].setAttribute('aria-pressed', 'false');
+      chip.setAttribute('aria-pressed', 'true');
+      apply(chip);
+      state.limit = PAGE;
+      render();
+    });
+  }
+
+  wireChips('ranges', function (c) { state.days = Number(c.dataset.days); });
+  wireChips('topics', function (c) { state.topic = c.dataset.topic; });
+  wireChips('angles', function (c) { state.angle = c.dataset.angle; });
+
   btn.addEventListener('click', function () { load(true); });
 
-  qEl.addEventListener('input', function () {
-    state.q = qEl.value.trim().toLowerCase();
+  moreEl.addEventListener('click', function () {
+    state.limit += PAGE;
     render();
   });
 
-  $('chips').addEventListener('click', function (e) {
-    var chip = e.target.closest('.chip');
-    if (!chip) return;
-    var all = this.querySelectorAll('.chip');
-    for (var i = 0; i < all.length; i++) all[i].setAttribute('aria-pressed', 'false');
-    chip.setAttribute('aria-pressed', 'true');
-    state.topic = chip.dataset.topic;
+  qEl.addEventListener('input', function () {
+    state.q = qEl.value.trim().toLowerCase();
+    state.limit = PAGE;
     render();
   });
 

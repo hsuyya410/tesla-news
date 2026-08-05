@@ -65,6 +65,15 @@
 
   .stamp { font-size: 12.5px; color: var(--muted); flex: 1 1 180px; }
   .stamp b { color: var(--ink); font-weight: 600; }
+  .stamp .age { font-weight: 600; }
+  .stamp.stale .age { color: #b45309; }
+  @media (prefers-color-scheme: dark) { .stamp.stale .age { color: #f0b429; } }
+
+  .note {
+    flex: 1 1 100%; font-size: 12.5px; color: var(--muted);
+    background: var(--neutral-bg); border-radius: 8px; padding: 7px 11px; margin-top: 2px;
+  }
+  .note[hidden] { display: none; }
 
   #q {
     flex: 1 1 160px; min-width: 120px; font: inherit; font-size: 14px;
@@ -145,6 +154,7 @@
     </button>
     <span class="stamp" id="stamp">載入中…</span>
     <input id="q" type="search" placeholder="搜尋標題關鍵字…" autocomplete="off">
+    <div class="note" id="note" role="status" aria-live="polite" hidden></div>
   </div>
 
   <div class="row" id="ranges">
@@ -191,11 +201,15 @@
   var DATA_URL = 'data/news.json';
   var PAGE = 60;
 
-  var state = { items: [], labels: {}, days: 30, topic: 'all', angle: 'all', q: '', limit: PAGE };
+  var state = {
+    items: [], labels: {}, days: 30, topic: 'all', angle: 'all', q: '', limit: PAGE,
+    updatedAt: '', coverageDays: 180
+  };
 
   var $ = function (id) { return document.getElementById(id); };
   var contentEl = $('content'), stampEl = $('stamp'), errEl = $('error');
   var btn = $('refresh'), qEl = $('q'), footStamp = $('foot-stamp'), moreEl = $('more');
+  var noteEl = $('note');
 
   function esc(s) {
     return String(s).replace(/[&<>"']/g, function (c) {
@@ -218,6 +232,37 @@
     var p = function (n) { return n < 10 ? '0' + n : String(n); };
     return d.getFullYear() + '/' + p(d.getMonth() + 1) + '/' + p(d.getDate()) +
            ' ' + p(d.getHours()) + ':' + p(d.getMinutes());
+  }
+
+  // 相對時間：讓人一眼看出這份資料有多舊（更新時間沒動時才知道是資料沒變，不是頁面壞了）
+  function fmtAge(iso) {
+    var t = new Date(iso).getTime();
+    if (isNaN(t)) return { text: '', mins: 0 };
+    var m = Math.max(0, Math.round((Date.now() - t) / 60000));
+    var text;
+    if (m < 1) text = '剛剛';
+    else if (m < 60) text = m + ' 分鐘前';
+    else if (m < 1440) text = Math.floor(m / 60) + ' 小時前';
+    else text = Math.floor(m / 1440) + ' 天前';
+    return { text: text, mins: m };
+  }
+
+  function renderStamp() {
+    if (!state.updatedAt) return;
+    var s = fmtStamp(state.updatedAt), age = fmtAge(state.updatedAt);
+    stampEl.className = 'stamp' + (age.mins > 180 ? ' stale' : '');
+    stampEl.innerHTML = '資料更新於 <b>' + esc(s) + '</b>' +
+      (age.text ? '（<span class="age">' + esc(age.text) + '</span>）' : '') +
+      '　共 ' + state.items.length + ' 則';
+    footStamp.textContent = '資料更新時間：' + s + '（' + age.text +
+      '；雲端每小時自動重抓一次，涵蓋近 ' + state.coverageDays +
+      ' 天。「更新最新新聞」是重新讀取雲端最新一份資料，若雲端還沒產生新的一份，時間就不會變）';
+  }
+
+  function note(msg) {
+    if (!msg) { noteEl.hidden = true; return; }
+    noteEl.textContent = msg;
+    noteEl.hidden = false;
   }
 
   function matches(item) {
@@ -277,7 +322,8 @@
 
     if (all.length > state.limit) {
       moreEl.hidden = false;
-      moreEl.textContent = '載入更多（還有 ' + (all.length - state.limit) + ' 則）';
+      // 「顯示」而非「載入」：這只是把已抓到的舊新聞展開，不會去雲端拿新資料
+      moreEl.textContent = '顯示更多舊新聞（還有 ' + (all.length - state.limit) + ' 則）';
     } else {
       moreEl.hidden = true;
     }
@@ -301,7 +347,11 @@
 
   function load(manual) {
     errEl.hidden = true;
-    if (manual) { btn.classList.add('loading'); btn.disabled = true; }
+    if (manual) { btn.classList.add('loading'); btn.disabled = true; note(''); }
+
+    var prevStamp = state.updatedAt;
+    var prevLinks = {};
+    for (var i = 0; i < state.items.length; i++) prevLinks[state.items[i].link] = 1;
 
     fetch(DATA_URL + '?t=' + Date.now(), { cache: 'no-store' })
       .then(function (r) {
@@ -311,21 +361,34 @@
       .then(function (data) {
         state.items = data.items || [];
         state.labels = data.angleLabels || {};
+        state.coverageDays = data.coverageDays || 180;
+        state.updatedAt = data.updatedAt;
         state.limit = PAGE;
         buildAngleChips(state.labels, data.angleCounts);
-
-        var s = fmtStamp(data.updatedAt);
-        stampEl.innerHTML = '資料更新於 <b>' + esc(s) + '</b>　共 ' + state.items.length + ' 則';
-        footStamp.textContent = '資料更新時間：' + s +
-          '（雲端每 2 小時自動重抓一次，涵蓋近 ' + (data.coverageDays || 180) +
-          ' 天；按「更新最新新聞」可取得最新一份）';
+        renderStamp();
         render();
+
+        if (manual) {
+          if (prevStamp && prevStamp === data.updatedAt) {
+            note('雲端上還是同一份資料（產生於 ' + fmtStamp(data.updatedAt) + '，' +
+                 fmtAge(data.updatedAt).text + '），所以更新時間沒有變。' +
+                 '雲端每小時自動重抓一次，稍後再按一次即可。');
+          } else {
+            var added = 0;
+            for (var j = 0; j < state.items.length; j++) {
+              if (!prevLinks[state.items[j].link]) added++;
+            }
+            note('已取得雲端最新一份資料（' + fmtStamp(data.updatedAt) + '）' +
+                 (added ? '，其中 ' + added + ' 則是這次新增的。' : '。'));
+          }
+        }
       })
       .catch(function (e) {
         errEl.hidden = false;
         errEl.textContent = '讀取新聞資料失敗（' + e.message +
           '）。資料可能正在產生中，請稍後再按一次「更新最新新聞」。';
         if (!state.items.length) contentEl.innerHTML = '';
+        stampEl.className = 'stamp';
         stampEl.textContent = '讀取失敗';
       })
       .then(function () {
@@ -356,6 +419,7 @@
   moreEl.addEventListener('click', function () {
     state.limit += PAGE;
     render();
+    note('已展開更多既有新聞（越後面越舊）。這不會去雲端重抓，所以上方的更新時間不會變。');
   });
 
   qEl.addEventListener('input', function () {
@@ -363,6 +427,9 @@
     state.limit = PAGE;
     render();
   });
+
+  // 每分鐘更新「幾分鐘前」，頁面開著也看得出資料在變舊
+  setInterval(renderStamp, 60000);
 
   load(false);
 })();

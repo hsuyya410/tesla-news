@@ -2,8 +2,10 @@ name: Update news data
 
 on:
   schedule:
-    # 每 2 小時抓一次（UTC；GitHub 排程可能延遲數分鐘，屬正常）
-    - cron: '17 */2 * * *'
+    # 每 30 分鐘抓一次（UTC）。GitHub 免費公開 repo 的 cron 是 best-effort，
+    # 負載高時會直接「跳過」整次排程（實測曾連續漏掉 5 次、資料停在 11 小時前），
+    # 所以刻意排密一點：就算被丟掉一半，實際更新間隔仍在 1 小時上下。
+    - cron: '7,37 * * * *'
   workflow_dispatch:
   push:
     branches: [main]
